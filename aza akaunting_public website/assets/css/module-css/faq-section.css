@@ -1,0 +1,112 @@
+/*** 
+=============================================
+    Faq Style1 Area Css
+=============================================
+***/
+.faq-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 0px;
+    z-index: 10;
+}
+
+.faq-style1-area.pdb120 {
+    padding-bottom: 120px;
+}
+
+
+.faq-style1__content {
+    position: relative;
+    display: block;
+}
+
+.accordion-box {
+    position: relative;
+    display: block;
+}
+
+.accordion-box .block {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    transition: all 500ms ease;
+}
+
+.accordion-box .block:last-child {
+    margin-bottom: 0px;
+}
+
+.accordion-box .block .acc-content.current {
+    display: block;
+}
+
+.accordion-box .block .acc-btn {
+    position: relative;
+    display: block;
+    padding-left: 50px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active {}
+
+.accordion-box .block .acc-btn h3 {
+    color: var(--thm-black);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active h3 {
+    color: var(--thm-base);
+}
+
+.accordion-box .block .acc-btn .icon-outer {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    color: var(--thm-black);
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    transform: translateY(-50%) rotate(-90deg);
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.accordion-box .block .acc-btn.active .icon-outer {
+    color: #fff;
+    border-color: var(--thm-base);
+    background-color: var(--thm-base);
+    transform: translateY(-50%) rotate(360deg);
+}
+
+.accordion-box .block .acc-btn.active .icon-outer i:before {
+    position: relative;
+    font-size: 12px;
+    font-family: 'icomoon' !important;
+    font-weight: 400;
+    margin: 0px;
+    content: "\ea49";
+}
+
+
+
+.accordion-box .block .acc-content {
+    position: relative;
+    display: none;
+    padding-top: 12px;
+    padding-left: 50px;
+}
+
+.accordion-box .block .acc-content p {
+    margin: 0;
+}

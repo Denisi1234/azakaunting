@@ -1,0 +1,968 @@
+/*** 
+=============================================
+    Team Style1 Area Css
+=============================================
+***/
+.team-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 80px;
+    z-index: 10;
+}
+
+.team-style1-area.gray-bg {
+    background: #f5f6f7;
+}
+
+
+.single-team-style1 {
+    position: relative;
+    display: block;
+    margin-bottom: 34px;
+}
+
+.single-team-style1 .img-holder {
+    position: relative;
+    display: block;
+}
+
+.single-team-style1 .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-image: var(--thm-gradient);
+    z-index: 1;
+}
+
+.single-team-style1 .img-holder .inner img {
+    width: 100%;
+    transition: all 500ms linear;
+    transition-delay: 0.2s;
+}
+
+.single-team-style1:hover .img-holder .inner img {
+    transform: scale(1.1) rotate(0deg);
+    opacity: 0.20;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+}
+
+
+
+.single-team-style1 .title-holder {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    z-index: 1;
+}
+
+.single-team-style1 .title-holder .name {
+    position: relative;
+    display: block;
+}
+
+.single-team-style1 .title-holder .name h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 0 0px;
+}
+
+.single-team-style1 .title-holder .name h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-team-style1 .title-holder .name h3 a span {
+    font-weight: 700;
+}
+
+.single-team-style1 .title-holder .name h3 a:hover {
+    color: var(--thm-base);
+}
+
+
+.single-team-style1 .title-holder .name .bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.single-team-style1 .title-holder .name .bottom .icon {
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+
+.single-team-style1 .title-holder .name .bottom .icon span:before {
+    position: relative;
+    display: inline-block;
+    left: 1px;
+    font-size: 16px;
+    line-height: 16px;
+    background: #81b754;
+    background: -webkit-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: -moz-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.single-team-style1 .title-holder .name .bottom p {
+    position: relative;
+    display: block;
+    color: var(--thm-base);
+    margin: 0;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.single-team-style1 .social-link-box {
+    position: relative;
+    display: block;
+}
+
+.team-social-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.team-social-link li {
+    position: relative;
+    display: inline-block;
+    float: none;
+}
+
+.team-social-link li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 5px solid rgba(var(--thm-black-rgb), .10);
+    color: var(--thm-black);
+    font-size: 18px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.team-social-link li a:hover {
+    color: var(--thm-base);
+    transform: rotate(360deg);
+}
+
+.team-social-link li a:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: #f2f2f2;
+    content: "";
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+.team-social-link li a:hover:before {
+    transform: scale(1.0);
+}
+
+.team-social-link li a:after {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    content: "";
+    border-radius: 50%;
+    z-index: -2;
+    transform: scale(0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+.team-social-link li a:hover:after {
+    transform: scale(1.0);
+}
+
+
+
+/*** 
+=============================================
+    Team Style2 Area Css
+=============================================
+***/
+.team-style2-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 80px;
+    z-index: 11;
+}
+
+.team-style2-area .single-team-style1 .img-holder .inner {
+    background: var(--thm-black);
+}
+
+.social-link-box-style2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 170px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+}
+
+.single-team-style1:hover .social-link-box-style2 {
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.social-link-box-style2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -140px;
+    right: -33px;
+    border-radius: 60% 40% 50% 40% / 70% 40% 60% 30%;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    z-index: -1;
+}
+
+.social-link-box-style2 .inner-box {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.social-link-box-style2 a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: var(--thm-base);
+    font-size: 18px;
+    background: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.social-link-box-style2 a:hover {
+    color: #ffffff;
+}
+
+.social-link-box-style2 a:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: var(--thm-black);
+    content: "";
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+.social-link-box-style2 a:hover:before {
+    transform: scale(1.0);
+}
+
+
+
+/*** 
+=============================================
+    Team Style3 Area Css
+=============================================
+***/
+.team-style3-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 80px;
+    z-index: 11;
+}
+
+.team-style3-area .single-team-style1 .img-holder .inner {
+    background: var(--thm-black);
+}
+
+.team-style3-area .social-link-box-style2:before {
+    bottom: -140px;
+    right: -33px;
+    border-radius: 60% 40% 50% 40% / 70% 40% 60% 30%;
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+.team-style3-area .single-team-style1 .img-holder {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.team-style3-area .single-team-style1 .title-holder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.team-style3-area .social-link-box-style2 {
+    bottom: 40px;
+    right: 30px;
+    -webkit-transform: perspective(400px) rotateX(0deg) translateY(150px);
+    -ms-transform: perspective(400px) rotateX(0deg) translateY(150px);
+    transform: perspective(400px) rotateX(0deg) translateY(150px);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+}
+
+.team-style3-area .single-team-style1 .title-holder .name .bottom {
+    align-items: center;
+    justify-content: center;
+}
+
+.team-style3-area .single-team-style1 .title-holder .name .bottom span:before {
+    color: var(--thm-base);
+    font-weight: 600;
+}
+
+
+
+/*** 
+=============================================
+    Team Style4 Content Css
+=============================================
+***/
+.team-style4-content {
+    margin-top: 125px;
+}
+
+.single-team-style4 .img-holder .inner {
+    background: var(--thm-black);
+}
+
+.single-team-style4 .social-link-box-style2:before {
+    bottom: -140px;
+    right: -33px;
+    border-radius: 60% 40% 50% 40% / 70% 40% 60% 30%;
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+.single-team-style4 .img-holder {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.single-team-style4 .title-holder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.single-team-style4 .social-link-box-style2 {
+    bottom: 40px;
+    right: 30px;
+    -webkit-transform: perspective(400px) rotateX(0deg) translateY(150px);
+    -ms-transform: perspective(400px) rotateX(0deg) translateY(150px);
+    transform: perspective(400px) rotateX(0deg) translateY(150px);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+}
+
+.single-team-style4 .title-holder .name .bottom {
+    align-items: center;
+    justify-content: center;
+}
+
+.single-team-style4 .title-holder .name .bottom span:before {
+    color: var(--thm-base);
+    font-weight: 600;
+}
+
+
+
+/*** 
+=============================================
+    Team Style5 Area Css
+=============================================
+***/
+.team-style5-area {
+    position: relative;
+    display: block;
+    background: #f8f8f8;
+    padding: 120px 0 120px;
+    z-index: 10;
+}
+
+
+.single-team-style5 {
+    position: relative;
+    display: block;
+}
+
+.single-team-style5.marginbtm40 {
+    margin-bottom: 40px;
+}
+
+.single-team-style5 .img-holder {
+    position: relative;
+    display: block;
+}
+
+.single-team-style5 .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.single-team-style5 .img-holder .inner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(var(--thm-base-rgb), 0.8);
+    -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: 1;
+}
+
+.single-team-style5:hover .img-holder .inner:before {
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.single-team-style5 .img-holder .inner img {
+    width: 100%;
+}
+
+.single-team-style5 .img-holder .inner .overlay-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 110px;
+    z-index: 5;
+}
+
+.single-team-style5 .img-holder .inner .overlay-content .text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 100px;
+    background: #ffffff;
+    padding: 25px 0px 26px;
+    padding-left: 50px;
+}
+
+.single-team-style5 .img-holder .inner .overlay-content .text h3 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.single-team-style5 .img-holder .inner .overlay-content .text h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-team-style5 .img-holder .inner .overlay-content .text h3 a:hover {
+    color: var(--thm-base);
+}
+
+.single-team-style5 .img-holder .inner .overlay-content .text p {
+    position: relative;
+    letter-spacing: 0.12em;
+    margin: 0;
+}
+
+.single-team-style5 .img-holder .inner .overlay-content .text p::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -50px;
+    width: 45px;
+    height: 1px;
+    background: var(--thm-black);
+}
+
+
+
+.single-team-style5 .img-holder .inner .overlay-content .icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-team-style5:hover .img-holder .inner .overlay-content .icon {
+    transform: scale(1.0);
+    transition: all 300ms linear;
+    transition-delay: 0.8s;
+
+}
+
+.single-team-style5 .img-holder .inner .overlay-content .icon a {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 25px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-team-style5 .img-holder .inner .overlay-content .icon a:hover {
+    color: var(--thm-black);
+}
+
+
+
+/*** 
+=============================================
+    Team Style6 Area Css
+=============================================
+***/
+.team-style6-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0 80px;
+    z-index: 10;
+}
+
+.team-style6-area.pdtop120 {
+    padding-top: 120px;
+}
+
+.single-team-style1--instyle6 {
+    max-width: 270px;
+    width: 100%;
+    margin: 0 auto 31px;
+}
+
+.single-team-style1--instyle6 .img-holder .inner {
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+.single-team-style1--instyle6 .social-link-box-style2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 220px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.single-team-style1--instyle6 .social-link-box-style2:before {
+    display: none;
+}
+
+.single-team-style1--instyle6 .social-link-box-style2 .inner-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.single-team-style1--instyle6 .social-link-box-style2 a.middle {
+    top: 30px;
+}
+
+.single-team-style1--instyle6 .social-link-box-style2 a {
+    color: #ffffff;
+    background: var(--thm-black);
+}
+
+.single-team-style1--instyle6 .social-link-box-style2 a:before {
+    background: var(--thm-base);
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    right: -1px;
+}
+
+.single-team-style1--instyle6 .title-holder {
+    justify-content: center;
+    align-items: center;
+    padding-top: 34px;
+}
+
+.single-team-style1--instyle6 .title-holder .name .bottom {
+    justify-content: center;
+}
+
+
+
+
+/*** 
+=============================================
+    Team Page Css
+=============================================
+***/
+.team-page {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 80px;
+    z-index: 10;
+}
+
+.team-page .space-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #e6e6e7;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+/*** 
+=============================================
+    Team Details Area Css
+=============================================
+***/
+.team-details-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 120px;
+    z-index: 10;
+}
+
+.team-details-img-box {
+    position: relative;
+    display: block;
+}
+
+.team-details-img-box img {
+    width: 100%;
+}
+
+.team-details-content-box {
+    position: relative;
+    display: block;
+    padding-left: 100px;
+}
+
+
+
+.team-details-content-box .top-title {
+    position: relative;
+    display: block;
+    padding-bottom: 23px;
+    margin-top: -5px;
+}
+
+.team-details-content-box .top-title h3 {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.team-details-content-box .top-title h3 span {
+    font-weight: 300;
+}
+
+.team-details-content-box .top-title p {
+    margin: 0;
+}
+
+
+.team-details-text-box1 {
+    position: relative;
+    display: block;
+}
+
+.team-details-text-box1 p {
+    margin: 0;
+}
+
+
+.team-details-text-box2 {
+    position: relative;
+    display: block;
+    padding-top: 20px;
+}
+
+.team-details-text-box2 h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.team-details-text-box2 p {
+    margin: 0;
+}
+
+
+
+.team-details-text-box3 {
+    position: relative;
+    display: block;
+    margin-top: -3px;
+}
+
+.team-details-text-box3 h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.team-details-text-box3 p {
+    margin: 0;
+}
+
+
+
+.team-details-text-box4 {
+    position: relative;
+    display: block;
+    padding-top: 32px;
+}
+
+.team-details-text-box4 ul {
+    position: relative;
+    display: block;
+}
+
+.team-details-text-box4 ul li {
+    position: relative;
+    display: block;
+    line-height: 32px;
+}
+
+.team-details-text-box4 ul li span {
+    color: var(--thm-black);
+    font-weight: 700;
+}
+
+.team-details-text-box4 ul li a {
+    color: var(--gray);
+}
+
+
+
+.team-details-form-box {
+    position: relative;
+    display: block;
+    padding-top: 82px;
+}
+
+.team-details-form-box h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.team-details-form-box h3 span {
+    font-weight: 300;
+}
+
+
+.team-details-form {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+}
+
+.team-details-form form {
+    position: relative;
+    display: block;
+}
+
+.team-details-form form .input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.team-details-form form input[type="text"],
+.team-details-form form input[type="email"],
+.team-details-form form textarea {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #edeef2;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+    transition: all 500ms ease;
+    font-family: var(--thm-font);
+}
+
+.team-details-form form textarea {
+    height: 115px;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.team-details-form form input[type="text"]::-webkit-input-placeholder {
+    color: #777777;
+}
+
+.team-details-form form input[type="text"]:-moz-placeholder {
+    color: #777777;
+}
+
+.team-details-form form input[type="text"]::-moz-placeholder {
+    color: #777777;
+}
+
+.team-details-form form input[type="text"]:-ms-input-placeholder {
+    color: #777777;
+}
+
+
+
+.team-details-form form input[type="email"]::-webkit-input-placeholder {
+    color: #777777;
+}
+
+.team-details-form form input[type="email"]:-moz-placeholder {
+    color: #777777;
+}
+
+.team-details-form form input[type="email"]::-moz-placeholder {
+    color: #777777;
+}
+
+.team-details-form form input[type="email"]:-ms-input-placeholder {
+    color: #777777;
+}
+
+
+
+.team-details-form form textarea::-webkit-input-placeholder {
+    color: #777777;
+}
+
+.team-details-form form textarea:-moz-placeholder {
+    color: #777777;
+}
+
+.team-details-form form textarea::-moz-placeholder {
+    color: #777777;
+}
+
+.team-details-form form textarea:-ms-input-placeholder {
+    color: #777777;
+}
+
+
+.team-details-form form .button-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+    text-align: left;
+}

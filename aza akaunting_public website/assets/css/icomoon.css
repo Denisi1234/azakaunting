@@ -1,0 +1,1693 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?vdw2jk');
+  src: url('../fonts/icomoon.eot?vdw2jk#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vdw2jk') format('truetype'),
+    url('../fonts/icomoon.woff?vdw2jk') format('woff'),
+    url('../fonts/icomoon.svg?vdw2jk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+
+.icon-contract:before {
+  content: "\e900";
+}
+
+.icon-partner:before {
+  content: "\e901";
+}
+
+.icon-budget:before {
+  content: "\e902";
+}
+
+.icon-finances:before {
+  content: "\e903";
+}
+
+.icon-play-button:before {
+  content: "\e904";
+}
+
+.icon-right-arrow:before {
+  content: "\e905";
+}
+
+.icon-right-arrow-1:before {
+  content: "\e906";
+}
+
+.icon-networking:before {
+  content: "\e907";
+}
+
+.icon-browser:before {
+  content: "\e908";
+}
+
+.icon-online-shop:before {
+  content: "\e909";
+}
+
+.icon-facebook:before {
+  content: "\e90a";
+}
+
+.icon-twitter:before {
+  content: "\e90b";
+}
+
+.icon-linkedin:before {
+  content: "\e90c";
+}
+
+.icon-instagram:before {
+  content: "\e90d";
+}
+
+.icon-picasa-logo:before {
+  content: "\e90e";
+}
+
+.icon-bar-chart:before {
+  content: "\e90f";
+}
+
+.icon-business-presentation:before {
+  content: "\e910";
+}
+
+.icon-car:before {
+  content: "\e911";
+}
+
+.icon-life-insurance:before {
+  content: "\e912";
+}
+
+.icon-healthcare:before {
+  content: "\e913";
+}
+
+.icon-google-plus:before {
+  content: "\e914";
+}
+
+.icon-chat:before {
+  content: "\e915";
+}
+
+.icon-law:before {
+  content: "\e916";
+}
+
+.icon-court:before {
+  content: "\e917";
+}
+
+.icon-taxes:before {
+  content: "\e918";
+}
+
+.icon-scales:before {
+  content: "\e919";
+}
+
+.icon-law-1:before {
+  content: "\e91a";
+}
+
+.icon-labour:before {
+  content: "\e91b";
+}
+
+.icon-email-black-opened-back-envelope-interface-symbol:before {
+  content: "\e91c";
+}
+
+.icon-phone-call:before {
+  content: "\e91d";
+}
+
+.icon-phone-call-1:before {
+  content: "\e91e";
+}
+
+.icon-maps-and-flags:before {
+  content: "\e91f";
+}
+
+.icon-education:before {
+  content: "\e920";
+}
+
+.icon-credit-card:before {
+  content: "\e921";
+}
+
+.icon-worker:before {
+  content: "\e922";
+}
+
+.icon-world:before {
+  content: "\e923";
+}
+
+.icon-user-experience:before {
+  content: "\e924";
+}
+
+.icon-shopping-cart:before {
+  content: "\e925";
+}
+
+.icon-clock:before {
+  content: "\e926";
+}
+
+.icon-chat-1:before {
+  content: "\e927";
+}
+
+.icon-booking:before {
+  content: "\e928";
+}
+
+.icon-pack:before {
+  content: "\e929";
+}
+
+.icon-shipped:before {
+  content: "\e92a";
+}
+
+.icon-delivered:before {
+  content: "\e92b";
+}
+
+.icon-cargo-truck:before {
+  content: "\e92c";
+}
+
+.icon-map-marker:before {
+  content: "\e92d";
+}
+
+.icon-residential:before {
+  content: "\e92e";
+}
+
+.icon-handshake:before {
+  content: "\e92f";
+}
+
+.icon-warehouse:before {
+  content: "\e930";
+}
+
+.icon-household:before {
+  content: "\e931";
+}
+
+.icon-commercial:before {
+  content: "\e932";
+}
+
+.icon-living-room:before {
+  content: "\e933";
+}
+
+.icon-packing:before {
+  content: "\e934";
+}
+
+.icon-recycle:before {
+  content: "\e935";
+}
+
+.icon-quotation:before {
+  content: "\e936";
+}
+
+.icon-office-building:before {
+  content: "\e937";
+}
+
+.icon-interior-design:before {
+  content: "\e938";
+}
+
+.icon-interior-design-1:before {
+  content: "\e939";
+}
+
+.icon-apartment:before {
+  content: "\e93a";
+}
+
+.icon-architect:before {
+  content: "\e93b";
+}
+
+.icon-staircase:before {
+  content: "\e93c";
+}
+
+.icon-blueprint:before {
+  content: "\e93d";
+}
+
+.icon-construction:before {
+  content: "\e93e";
+}
+
+.icon-helmet:before {
+  content: "\e93f";
+}
+
+.icon-sketch:before {
+  content: "\e940";
+}
+
+.icon-condominium:before {
+  content: "\e941";
+}
+
+.icon-architecture:before {
+  content: "\e942";
+}
+
+.icon-planning-strategy:before {
+  content: "\e943";
+}
+
+.icon-planning:before {
+  content: "\e944";
+}
+
+.icon-planning-1:before {
+  content: "\e945";
+}
+
+.icon-solar-panel:before {
+  content: "\e946";
+}
+
+.icon-house:before {
+  content: "\e947";
+}
+
+.icon-solar-panel-1:before {
+  content: "\e948";
+}
+
+.icon-solar-panels:before {
+  content: "\e949";
+}
+
+.icon-solar-panels-1:before {
+  content: "\e94a";
+}
+
+.icon-solar-panel-2:before {
+  content: "\e94b";
+}
+
+.icon-fossil-fuel:before {
+  content: "\e94c";
+}
+
+.icon-money-saving:before {
+  content: "\e94d";
+}
+
+.icon-certificate:before {
+  content: "\e94e";
+}
+
+.icon-css-file-format:before {
+  content: "\e94f";
+}
+
+.icon-seo:before {
+  content: "\e950";
+}
+
+.icon-application:before {
+  content: "\e951";
+}
+
+.icon-psd:before {
+  content: "\e952";
+}
+
+.icon-illustrator:before {
+  content: "\e953";
+}
+
+.icon-cloud:before {
+  content: "\e954";
+}
+
+.icon-hosting:before {
+  content: "\e955";
+}
+
+.icon-server:before {
+  content: "\e956";
+}
+
+.icon-24-hours-support:before {
+  content: "\e957";
+}
+
+.icon-24-hours-support-1:before {
+  content: "\e958";
+}
+
+.icon-planet:before {
+  content: "\e959";
+}
+
+.icon-customer-review:before {
+  content: "\e95a";
+}
+
+.icon-world-grid:before {
+  content: "\e95b";
+}
+
+.icon-premium-service:before {
+  content: "\e95c";
+}
+
+.icon-health-care:before {
+  content: "\e95d";
+}
+
+.icon-support:before {
+  content: "\e95e";
+}
+
+.icon-customer-service:before {
+  content: "\e95f";
+}
+
+.icon-corporation:before {
+  content: "\e960";
+}
+
+.icon-handshake-1:before {
+  content: "\e961";
+}
+
+.icon-optimization:before {
+  content: "\e962";
+}
+
+.icon-instagram-1:before {
+  content: "\e963";
+}
+
+.icon-instagram-2:before {
+  content: "\e964";
+}
+
+.icon-arrow-right:before {
+  content: "\e965";
+}
+
+.icon-right-arrow-2:before {
+  content: "\e966";
+}
+
+.icon-left-arrow:before {
+  content: "\e967";
+}
+
+.icon-decision-making:before {
+  content: "\e968";
+}
+
+.icon-decision-making-1:before {
+  content: "\e969";
+}
+
+.icon-play:before {
+  content: "\e96a";
+}
+
+.icon-play-button-1:before {
+  content: "\e96b";
+}
+
+.icon-next:before {
+  content: "\e96c";
+}
+
+.icon-two-thin-arrows-forming-a-circle:before {
+  content: "\e96d";
+}
+
+.icon-arrow:before {
+  content: "\e96e";
+}
+
+.icon-send:before {
+  content: "\e96f";
+}
+
+.icon-paper-plane:before {
+  content: "\e970";
+}
+
+.icon-star:before {
+  content: "\e971";
+}
+
+.icon-star-1:before {
+  content: "\e972";
+}
+
+.icon-star-2:before {
+  content: "\e973";
+}
+
+.icon-car-1:before {
+  content: "\e974";
+}
+
+.icon-life-insurance-1:before {
+  content: "\e975";
+}
+
+.icon-safe:before {
+  content: "\e976";
+}
+
+.icon-chat-2:before {
+  content: "\e977";
+}
+
+.icon-comment:before {
+  content: "\e978";
+}
+
+.icon-support-1:before {
+  content: "\e979";
+}
+
+.icon-voicemail:before {
+  content: "\e97a";
+}
+
+.icon-phone:before {
+  content: "\e97b";
+}
+
+.icon-phone-call-2:before {
+  content: "\e97c";
+}
+
+.icon-speech-bubble:before {
+  content: "\e97d";
+}
+
+.icon-law-2 .path1:before {
+  content: "\e97e";
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path2:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path3:before {
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path4:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path5:before {
+  content: "\e982";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path6:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path7:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path8:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(0, 233, 204);
+}
+
+.icon-law-2 .path9:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path10:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path11:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path12:before {
+  content: "\e989";
+  margin-left: -1em;
+  color: rgb(0, 233, 204);
+}
+
+.icon-law-2 .path13:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path14:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-law-2 .path15:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-regulatory:before {
+  content: "\e98d";
+}
+
+.icon-house-1 .path1:before {
+  content: "\e98e";
+  color: rgb(145, 86, 45);
+}
+
+.icon-house-1 .path2:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(109, 65, 34);
+}
+
+.icon-house-1 .path3:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+
+.icon-house-1 .path4:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(207, 216, 220);
+}
+
+.icon-house-1 .path5:before {
+  content: "\e992";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+
+.icon-house-1 .path6:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(255, 220, 0);
+}
+
+.icon-house-1 .path7:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(254, 193, 8);
+}
+
+.icon-house-1 .path8:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(255, 152, 1);
+}
+
+.icon-house-1 .path9:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(245, 124, 0);
+}
+
+.icon-house-1 .path10:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(2, 169, 244);
+}
+
+.icon-house-1 .path11:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(3, 119, 188);
+}
+
+.icon-house-1 .path12:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(255, 152, 1);
+}
+
+.icon-house-1 .path13:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(245, 124, 0);
+}
+
+.icon-house-1 .path14:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-house-1 .path15:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-house-1 .path16:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-house-1 .path17:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-house-1 .path18:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-house-1 .path19:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-play-button-2:before {
+  content: "\e9a1";
+}
+
+.icon-play-button-3:before {
+  content: "\e9a2";
+}
+
+.icon-balance:before {
+  content: "\e9a3";
+}
+
+.icon-banking:before {
+  content: "\e9a4";
+}
+
+.icon-health-law:before {
+  content: "\e9a5";
+}
+
+.icon-law-3:before {
+  content: "\e9a6";
+}
+
+.icon-pin:before {
+  content: "\e9a7";
+}
+
+.icon-open-envelope:before {
+  content: "\e9a8";
+}
+
+.icon-phone-call-3:before {
+  content: "\e9a9";
+}
+
+.icon-repeat:before {
+  content: "\e9aa";
+}
+
+.icon-destination:before {
+  content: "\e9ab";
+}
+
+.icon-searching:before {
+  content: "\e9ac";
+}
+
+.icon-visa:before {
+  content: "\e9ad";
+}
+
+.icon-debt:before {
+  content: "\e9ae";
+}
+
+.icon-worker-1:before {
+  content: "\e9af";
+}
+
+.icon-plane:before {
+  content: "\e9b0";
+}
+
+.icon-engine-oil .path1:before {
+  content: "\e9b1";
+  color: var(--thm-base);
+}
+
+.icon-engine-oil .path2:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-engine-oil .path3:before {
+  content: "\e9b3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-engine-oil .path4:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-engine-oil .path5:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-engine-oil .path6:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-engine-oil .path7:before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-oil .path1:before {
+  content: "\e9b8";
+  color: var(--thm-black);
+}
+
+.icon-oil .path2:before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: var(--thm-black);
+}
+
+.icon-oil .path3:before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: var(--thm-black);
+}
+
+.icon-oil .path4:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path5:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path6:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path7:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path8:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path9:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path10:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path11:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path12:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path13:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-oil .path14:before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-car-service .path1:before {
+  content: "\e9c6";
+  color: var(--thm-base);
+}
+
+.icon-car-service .path2:before {
+  content: "\e9c7";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-car-service .path3:before {
+  content: "\e9c8";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-car-service .path4:before {
+  content: "\e9c9";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-car-service .path5:before {
+  content: "\e9ca";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-car-service .path6:before {
+  content: "\e9cb";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-car-service .path7:before {
+  content: "\e9cc";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-car-service .path8:before {
+  content: "\e9cd";
+  margin-left: -1em;
+  color: var(--thm-base);
+}
+
+.icon-open-sign:before {
+  content: "\e9ce";
+}
+
+.icon-open-sign-1:before {
+  content: "\e9cf";
+}
+
+.icon-chat-3:before {
+  content: "\e9d0";
+}
+
+.icon-route:before {
+  content: "\e9d1";
+}
+
+.icon-project:before {
+  content: "\e9d2";
+}
+
+.icon-decorating:before {
+  content: "\e9d3";
+}
+
+.icon-budget-1:before {
+  content: "\e9d4";
+}
+
+.icon-open-24-hours:before {
+  content: "\e9d5";
+}
+
+.icon-open-24-hours-1:before {
+  content: "\e9d6";
+}
+
+.icon-solar-panel-3 .path1:before {
+  content: "\e9d7";
+  color: rgb(79, 103, 210);
+}
+
+.icon-solar-panel-3 .path2:before {
+  content: "\e9d8";
+  margin-left: -1em;
+  color: rgb(50, 76, 204);
+}
+
+.icon-solar-panel-3 .path3:before {
+  content: "\e9d9";
+  margin-left: -1em;
+  color: rgb(223, 235, 250);
+}
+
+.icon-solar-panel-3 .path4:before {
+  content: "\e9da";
+  margin-left: -1em;
+  color: rgb(177, 219, 252);
+}
+
+.icon-solar-panel-3 .path5:before {
+  content: "\e9db";
+  margin-left: -1em;
+  color: rgb(79, 103, 210);
+}
+
+.icon-solar-panel-3 .path6:before {
+  content: "\e9dc";
+  margin-left: -1em;
+  color: rgb(50, 76, 204);
+}
+
+.icon-solar-panel-3 .path7:before {
+  content: "\e9dd";
+  margin-left: -1em;
+  color: rgb(254, 229, 90);
+}
+
+.icon-solar-panel-3 .path8:before {
+  content: "\e9de";
+  margin-left: -1em;
+  color: rgb(255, 211, 1);
+}
+
+.icon-solar-panel-3 .path9:before {
+  content: "\e9df";
+  margin-left: -1em;
+  color: rgb(177, 219, 252);
+}
+
+.icon-solar-panel-3 .path10:before {
+  content: "\e9e0";
+  margin-left: -1em;
+  color: rgb(139, 202, 255);
+}
+
+.icon-solar-panel-3 .path11:before {
+  content: "\e9e1";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path12:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path13:before {
+  content: "\e9e3";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path14:before {
+  content: "\e9e4";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path15:before {
+  content: "\e9e5";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path16:before {
+  content: "\e9e6";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path17:before {
+  content: "\e9e7";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path18:before {
+  content: "\e9e8";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path19:before {
+  content: "\e9e9";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-solar-panel-3 .path20:before {
+  content: "\e9ea";
+  margin-left: -1em;
+  color: rgb(29, 29, 27);
+}
+
+.icon-fossil-fuels .path1:before {
+  content: "\e9eb";
+  color: rgb(240, 188, 94);
+}
+
+.icon-fossil-fuels .path2:before {
+  content: "\e9ec";
+  margin-left: -1em;
+  color: rgb(240, 188, 94);
+}
+
+.icon-fossil-fuels .path3:before {
+  content: "\e9ed";
+  margin-left: -1em;
+  color: rgb(240, 188, 94);
+}
+
+.icon-fossil-fuels .path4:before {
+  content: "\e9ee";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-fossil-fuels .path5:before {
+  content: "\e9ef";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-fossil-fuels .path6:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-fossil-fuels .path7:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-fossil-fuels .path8:before {
+  content: "\e9f2";
+  margin-left: -1em;
+  color: rgb(240, 188, 94);
+}
+
+.icon-fossil-fuels .path9:before {
+  content: "\e9f3";
+  margin-left: -1em;
+  color: rgb(240, 188, 94);
+}
+
+.icon-fossil-fuels .path10:before {
+  content: "\e9f4";
+  margin-left: -1em;
+  color: rgb(240, 188, 94);
+}
+
+.icon-fossil-fuels .path11:before {
+  content: "\e9f5";
+  margin-left: -1em;
+  color: rgb(240, 188, 94);
+}
+
+.icon-hydro-power .path1:before {
+  content: "\e9f6";
+  color: rgb(143, 206, 234);
+}
+
+.icon-hydro-power .path2:before {
+  content: "\e9f7";
+  margin-left: -1em;
+  color: rgb(143, 206, 234);
+}
+
+.icon-hydro-power .path3:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  color: rgb(143, 206, 234);
+}
+
+.icon-hydro-power .path4:before {
+  content: "\e9f9";
+  margin-left: -1em;
+  color: rgb(249, 135, 95);
+}
+
+.icon-hydro-power .path5:before {
+  content: "\e9fa";
+  margin-left: -1em;
+  color: rgb(226, 97, 57);
+}
+
+.icon-hydro-power .path6:before {
+  content: "\e9fb";
+  margin-left: -1em;
+  color: rgb(226, 97, 57);
+}
+
+.icon-hydro-power .path7:before {
+  content: "\e9fc";
+  margin-left: -1em;
+  color: rgb(226, 97, 57);
+}
+
+.icon-hydro-power .path8:before {
+  content: "\e9fd";
+  margin-left: -1em;
+  color: rgb(226, 97, 57);
+}
+
+.icon-hydro-power .path9:before {
+  content: "\e9fe";
+  margin-left: -1em;
+  color: rgb(249, 135, 95);
+}
+
+.icon-hydro-power .path10:before {
+  content: "\e9ff";
+  margin-left: -1em;
+  color: rgb(249, 135, 95);
+}
+
+.icon-hydro-power .path11:before {
+  content: "\ea00";
+  margin-left: -1em;
+  color: rgb(249, 135, 95);
+}
+
+.icon-hydro-power .path12:before {
+  content: "\ea01";
+  margin-left: -1em;
+  color: rgb(226, 97, 57);
+}
+
+.icon-hydro-power .path13:before {
+  content: "\ea02";
+  margin-left: -1em;
+  color: rgb(143, 206, 234);
+}
+
+.icon-hydro-power .path14:before {
+  content: "\ea03";
+  margin-left: -1em;
+  color: rgb(72, 153, 188);
+}
+
+.icon-hydro-power .path15:before {
+  content: "\ea04";
+  margin-left: -1em;
+  color: rgb(255, 207, 100);
+}
+
+.icon-hydro-power .path16:before {
+  content: "\ea05";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-hydro-power .path17:before {
+  content: "\ea06";
+  margin-left: -1em;
+  color: rgb(143, 206, 234);
+}
+
+.icon-hydro-power .path18:before {
+  content: "\ea07";
+  margin-left: -1em;
+  color: rgb(143, 206, 234);
+}
+
+.icon-hydro-power .path19:before {
+  content: "\ea08";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-hydro-power .path20:before {
+  content: "\ea09";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-hydro-power .path21:before {
+  content: "\ea0a";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-hydro-power .path22:before {
+  content: "\ea0b";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-hydro-power .path23:before {
+  content: "\ea0c";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-hydro-power .path24:before {
+  content: "\ea0d";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-hydro-power .path25:before {
+  content: "\ea0e";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-hydro-power .path26:before {
+  content: "\ea0f";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-wind-turbine .path1:before {
+  content: "\ea10";
+  color: rgb(87, 164, 255);
+}
+
+.icon-wind-turbine .path2:before {
+  content: "\ea11";
+  margin-left: -1em;
+  color: rgb(87, 164, 255);
+}
+
+.icon-wind-turbine .path3:before {
+  content: "\ea12";
+  margin-left: -1em;
+  color: rgb(87, 164, 255);
+}
+
+.icon-wind-turbine .path4:before {
+  content: "\ea13";
+  margin-left: -1em;
+  color: rgb(87, 164, 255);
+}
+
+.icon-wind-turbine .path5:before {
+  content: "\ea14";
+  margin-left: -1em;
+  color: rgb(87, 164, 255);
+}
+
+.icon-wind-turbine .path6:before {
+  content: "\ea15";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path7:before {
+  content: "\ea16";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path8:before {
+  content: "\ea17";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path9:before {
+  content: "\ea18";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path10:before {
+  content: "\ea19";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path11:before {
+  content: "\ea1a";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path12:before {
+  content: "\ea1b";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path13:before {
+  content: "\ea1c";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path14:before {
+  content: "\ea1d";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path15:before {
+  content: "\ea1e";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine .path16:before {
+  content: "\ea1f";
+  margin-left: -1em;
+  color: rgb(0, 79, 172);
+}
+
+.icon-wind-turbine-1 .path1:before {
+  content: "\ea20";
+  color: rgb(73, 206, 127);
+}
+
+.icon-wind-turbine-1 .path2:before {
+  content: "\ea21";
+  margin-left: -1em;
+  color: rgb(73, 206, 127);
+}
+
+.icon-wind-turbine-1 .path3:before {
+  content: "\ea22";
+  margin-left: -1em;
+  color: rgb(73, 206, 127);
+}
+
+.icon-wind-turbine-1 .path4:before {
+  content: "\ea23";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path5:before {
+  content: "\ea24";
+  margin-left: -1em;
+  color: rgb(25, 133, 237);
+}
+
+.icon-wind-turbine-1 .path6:before {
+  content: "\ea25";
+  margin-left: -1em;
+  color: rgb(73, 206, 127);
+}
+
+.icon-wind-turbine-1 .path7:before {
+  content: "\ea26";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path8:before {
+  content: "\ea27";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path9:before {
+  content: "\ea28";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path10:before {
+  content: "\ea29";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path11:before {
+  content: "\ea2a";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path12:before {
+  content: "\ea2b";
+  margin-left: -1em;
+  color: rgb(82, 242, 147);
+}
+
+.icon-wind-turbine-1 .path13:before {
+  content: "\ea2c";
+  margin-left: -1em;
+  color: rgb(50, 150, 93);
+}
+
+.icon-wind-turbine-1 .path14:before {
+  content: "\ea2d";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path15:before {
+  content: "\ea2e";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path16:before {
+  content: "\ea2f";
+  margin-left: -1em;
+  color: rgb(82, 242, 147);
+}
+
+.icon-wind-turbine-1 .path17:before {
+  content: "\ea30";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path18:before {
+  content: "\ea31";
+  margin-left: -1em;
+  color: rgb(142, 152, 185);
+}
+
+.icon-wind-turbine-1 .path19:before {
+  content: "\ea32";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path20:before {
+  content: "\ea33";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path21:before {
+  content: "\ea34";
+  margin-left: -1em;
+  color: rgb(142, 152, 185);
+}
+
+.icon-wind-turbine-1 .path22:before {
+  content: "\ea35";
+  margin-left: -1em;
+  color: rgb(204, 211, 235);
+}
+
+.icon-wind-turbine-1 .path23:before {
+  content: "\ea36";
+  margin-left: -1em;
+  color: rgb(101, 118, 156);
+}
+
+.icon-wind-turbine-1 .path24:before {
+  content: "\ea37";
+  margin-left: -1em;
+  color: rgb(101, 118, 156);
+}
+
+.icon-wind-turbine-1 .path25:before {
+  content: "\ea38";
+  margin-left: -1em;
+  color: rgb(93, 93, 93);
+}
+
+.icon-wind-turbine-1 .path26:before {
+  content: "\ea39";
+  margin-left: -1em;
+  color: rgb(93, 93, 93);
+}
+
+.icon-wind-turbine-1 .path27:before {
+  content: "\ea3a";
+  margin-left: -1em;
+  color: rgb(93, 93, 93);
+}
+
+.icon-wind-turbine-1 .path28:before {
+  content: "\ea3b";
+  margin-left: -1em;
+  color: rgb(93, 93, 93);
+}
+
+.icon-wind-turbine-1 .path29:before {
+  content: "\ea3c";
+  margin-left: -1em;
+  color: rgb(93, 93, 93);
+}
+
+.icon-wind-turbine-1 .path30:before {
+  content: "\ea3d";
+  margin-left: -1em;
+  color: rgb(93, 93, 93);
+}
+
+.icon-wind-turbine-1 .path31:before {
+  content: "\ea3e";
+  margin-left: -1em;
+  color: rgb(93, 93, 93);
+}
+
+.icon-solar-house:before {
+  content: "\ea3f";
+}
+
+.icon-discussion:before {
+  content: "\ea40";
+}
+
+.icon-page-quality:before {
+  content: "\ea41";
+}
+
+.icon-quote:before {
+  content: "\ea42";
+}
+
+.icon-left-quotes-sign:before {
+  content: "\ea43";
+}
+
+.icon-plus-sign:before {
+  content: "\ea44";
+}
+
+.icon-add:before {
+  content: "\ea45";
+}
+
+.icon-add-1:before {
+  content: "\ea46";
+}
+
+.icon-minus:before {
+  content: "\ea47";
+}
+
+.icon-minus-1:before {
+  content: "\ea48";
+}
+
+.icon-minus-2:before {
+  content: "\ea49";
+}
+
+.icon-minus-horizontal-straight-line:before {
+  content: "\ea4a";
+}
+
+.icon-envato:before {
+  content: "\ea4b";
+}
+
+.icon-envato-1:before {
+  content: "\ea4c";
+}
+
+.icon-right-quotes-symbol:before {
+  content: "\ea4d";
+}

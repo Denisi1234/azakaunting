@@ -1,0 +1,321 @@
+/*** 
+=============================================
+    Partner Area Css
+=============================================
+***/
+.partner-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    z-index: 10;
+}
+
+.partner-area.thm-base-bg {
+    background-color: var(--thm-base);
+}
+
+.partner-area .container-fluid {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.brand-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 35%;
+    min-height: 300px;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    padding-right: 80px;
+}
+
+.brand-title--style2 {
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+.brand-title--style3 {
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+.brand-title h2 {
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+
+.brand-title h2 span {
+    font-weight: 700;
+}
+
+
+
+.brand-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #f5f6f7;
+    width: 65%;
+    min-height: 300px;
+}
+
+.brand-content .inner {
+    position: relative;
+    display: block;
+    max-width: 870px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.partner-box {
+    position: relative;
+    display: block;
+}
+
+.partner-box li {
+    position: relative;
+    display: block;
+}
+
+.single-partner-logo-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.single-partner-logo-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 3px;
+    transform: perspective(400px) scaleX(0);
+    transform-origin: center;
+    transition: all 500ms linear;
+    transition-delay: 0.5s;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    z-index: 1;
+}
+
+.single-partner-logo-box.base-bg:before {
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+.single-partner-logo-box:hover:before {
+    transform: perspective(400px) scaleX(1.0);
+}
+
+.single-partner-logo-box:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff;
+    transform: perspective(400px) scaleX(0);
+    transform-origin: center;
+    z-index: -1;
+    transition: all 300ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-partner-logo-box:hover:after {
+    transform: perspective(400px) scaleX(1.0);
+}
+
+
+.single-partner-logo-box a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.single-partner-logo-box a img {
+    opacity: 0.20;
+    width: auto;
+    transition: all 0.2s ease-in-out 0.1s;
+    filter: grayscale(0%);
+}
+
+.single-partner-logo-box:hover a img {
+    opacity: 1.0;
+    filter: grayscale(0%);
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+.partner-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    display: none;
+}
+
+
+
+
+/*** 
+=============================================
+    Partner Style2 Area Css
+=============================================
+***/
+.partner-style2-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-bottom: 120px;
+    z-index: 10;
+}
+
+.partner-style2-area.pdtop120 {
+    padding-top: 120px;
+}
+
+.partner-style2-area.pdb0 {
+    padding-bottom: 0;
+}
+
+.partner-style2-area .single-partner-logo-box {
+    background-color: rgba(var(--thm-gray-rgb), 0.2);
+}
+
+.partner-style2-area .single-partner-logo-box:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    background: var(--thm-base);
+    opacity: 0.20;
+    transform: perspective(400px) scaleX(0);
+    transform-origin: center;
+    transition: all 500ms linear;
+    transition-delay: 0.5s;
+    z-index: -1;
+}
+
+.partner-style2-area .single-partner-logo-box:hover:after {
+    transform: perspective(400px) scaleX(1.0);
+}
+
+.partner-style2-area .single-partner-logo-box a img {
+    opacity: 0.90;
+    width: auto;
+    transition: all 0.2s ease-in-out 0.1s;
+    filter: grayscale(0%);
+}
+
+.partner-style2-area .single-partner-logo-box:hover a img {
+    opacity: 1.0;
+    filter: grayscale(0%);
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+.partner-style2-area .owl-carousel.owl-dot-style1 .owl-dots {
+    display: none;
+}
+
+
+.partner-area.pdb120 {
+    padding-bottom: 120px;
+}
+
+.single-partner-logo-box--style3:before {
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+
+
+/*** 
+=============================================
+    Partner Style3 Area Css
+=============================================
+***/
+.partner-style3-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-bottom: 90px;
+    z-index: 10;
+}
+
+.partner-style3-area.pdtop120 {
+    padding-top: 120px;
+}
+
+.partner-box-style3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.partner-box-style3.three-colum {
+    justify-content: center;
+}
+
+.partner-box-style3 .single-partner-logo-box {
+    width: 20%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.partner-box-style3 .single-partner-logo-box:before {
+    display: none;
+}
+
+.partner-box-style3 .single-partner-logo-box .inner {
+    position: relative;
+    display: block;
+    background-color: rgba(var(--thm-gray-rgb), 0.2);
+}
+
+
+
+.single-partner-logo-box--style2 {}
+
+.single-partner-logo-box--style2:before {
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+
+
+
+
+.brand-content.thm-base-color {
+    background: var(--base);
+}
+
+.single-partner-logo-box.white:after {
+    background-color: var(--thm-black);
+}
+
+.single-partner-logo-box.white:before {
+    background-image: none;
+    background-color: #ffffff;
+}
+
+.single-partner-logo-box.white a img {
+    opacity: 0.50;
+}
+
+.single-partner-logo-box.white:hover a img {
+    opacity: 1.0;
+}

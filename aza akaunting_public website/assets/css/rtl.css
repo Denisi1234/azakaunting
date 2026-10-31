@@ -1,0 +1,493 @@
+/** template rtl css **/
+
+.page_direction {
+  display: none;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.demo-rtl {
+  position: fixed;
+  top: 260px;
+  left: 0;
+  z-index: 9999;
+}
+
+button.rtl {
+  background: rgba(0, 0, 0, 0.90);
+  display: block;
+  text-indent: inherit;
+  font-size: 12px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0px;
+  color: #fff !important;
+}
+
+.demo-ltr {
+  position: fixed;
+  top: 260px;
+  left: auto;
+  right: 0;
+  z-index: 9999;
+}
+
+button.ltr {
+  background: rgba(0, 0, 0, 0.90);
+  display: block;
+  text-indent: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0px;
+  color: #fff !important;
+}
+
+.boxed_wrapper.ltr .demo-rtl {
+  display: block;
+}
+
+.boxed_wrapper.ltr .demo-ltr {
+  display: none;
+}
+
+.boxed_wrapper.rtl .demo-rtl {
+  display: none;
+}
+
+.boxed_wrapper.rtl .demo-ltr {
+  display: block;
+}
+
+.rtl .pull-left {
+  float: right;
+}
+
+.rtl .pull-right {
+  float: left;
+}
+
+.rtl .float-left {
+  float: right !important;
+}
+
+.rtl .float-right {
+  float: left !important;
+}
+
+.rtl .checked-box2 label {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .checked-box2 input[type="checkbox"]+label span {
+  left: auto;
+  right: 0;
+}
+
+
+.rtl .main-menu {
+  float: right;
+}
+
+.rtl .main-menu .navigation>li {
+  float: right;
+}
+
+.rtl .main-menu .navigation>li:first-child {
+  margin-right: 0px;
+}
+
+.rtl .main-menu .navigation>li:last-child {
+  margin-right: 40px;
+}
+
+.rtl .main-menu .navigation>li>ul {
+  left: auto;
+  right: inherit;
+}
+
+.rtl .main-menu .navigation>li>ul>li>a {
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.rtl .main-menu .navigation>li>ul>li>a:before {
+  display: block;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+.rtl .main-menu .navigation>li>ul>li>a:after {
+  display: none;
+}
+
+.rtl .main-menu .navigation>li.dropdown>a:after {
+  display: none;
+}
+
+.rtl .main-menu .navigation>li>ul>li>ul>li a:before {
+  display: block;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+.rtl .main-menu .navigation>li>ul>li.dropdown>a:after {
+  display: none;
+}
+
+.rtl .main-menu .navigation>li>ul>li>ul {
+  left: auto;
+  right: 100%;
+}
+
+.rtl .main-menu .navigation>li>ul>li>ul>li>a {
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.rtl .main-menu .navigation>li>ul>li>ul>li>a:after {
+  display: none;
+}
+
+.rtl .sticky-header .main-menu .navigation>li {
+  float: right;
+}
+
+
+/** Sub Menu **/
+.rtl .main-menu .navigation>li>ul>li.dropdown:after {
+  left: 30px;
+  right: auto;
+  transform: rotate(180deg);
+}
+
+
+
+
+/***  Mega menu **/
+.rtl .main-menu .navigation>li>.megamenu li>a {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.rtl .main-menu .navigation>li>.megamenu li>a:after {
+  display: none;
+}
+
+.rtl .main-menu .navigation>li>.megamenu li:hover>a:before {
+  -webkit-transform-origin: right center;
+  transform-origin: right center;
+}
+
+
+
+
+.rtl .mobile-menu {
+  text-align: right;
+}
+
+.rtl .mobile-menu .nav-logo {
+  text-align: right;
+}
+
+.rtl .mobile-menu .navigation li>a:before {
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn {
+  right: inherit;
+  left: 6px;
+  transform: rotate(90deg);
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn.open {
+  transform: rotate(0deg);
+}
+
+
+
+.rtl .scroll-top {
+  left: 20px;
+  right: auto;
+}
+
+.rtl .switcher .switch_btn {
+  top: 0px;
+  right: 0px;
+}
+
+.rtl .switcher .switch_menu {
+  left: -285px;
+}
+
+
+
+
+.rtl .rtl-carousel {
+  direction: ltr;
+  text-align: right;
+}
+
+.rtl .banner-carousel {
+  direction: ltr;
+  text-align: right;
+}
+
+.rtl .testimonial-carousel-12 {
+  direction: ltr;
+  text-align: right;
+}
+
+.rtl .blog-style10-carousel {
+  direction: ltr;
+  text-align: right;
+}
+
+
+
+.rtl .text-right-rtl {
+  text-align: right;
+}
+
+.rtl .btn-two span {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/*________________All Home Page Css_______________ */
+
+
+.rtl .btn-one .arrow {
+  display: none;
+}
+
+.rtl .btn-one {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+
+.rtl .phone-number-box-style14 .inner {
+  padding-left: 0px;
+  padding-right: 70px;
+}
+
+.rtl .phone-number-box-style14 .inner .icon {
+  left: auto;
+  right: 0;
+}
+
+.rtl .phone-number-box-style14 .inner .text {
+  text-align: right;
+}
+
+
+.rtl .project-filter li {
+  float: right;
+}
+
+.rtl .single-project-style7 .content-box .inner {
+  padding-left: 0px;
+  padding-right: 50px;
+}
+
+.rtl .single-project-style7 .content-box .border-box {
+  display: none;
+}
+
+
+
+.rtl .experience__top-box__content {
+  padding-left: 0px;
+  padding-right: 105px;
+}
+
+.rtl .experience__top-box__image1 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.rtl .experience__bottom-box__image1 {
+  position: relative;
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.rtl .skill-content-box {
+  padding-right: 0px;
+  padding-left: 0px;
+  float: left;
+  padding-left: 105px;
+}
+
+.rtl .progress-box-style2 .bar .bar-innner .skill-percent {
+  left: 0;
+  right: auto;
+}
+
+
+
+.rtl .footer--style9 .single-footer-widget .title:before {
+  display: none;
+}
+
+.rtl .footer-social-link ul li {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .footer-social-link ul li:last-child {
+  margin-left: 0;
+}
+
+
+
+
+.rtl .blog-style10-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=============================================
+    Inner Page Css
+=============================================
+***/
+.rtl .faq-form-box form .select-box .nice-select {
+  text-align: right !important;
+}
+
+.rtl .faq-form-box form .select-box .nice-select .option {
+  text-align: right;
+}
+
+.rtl .faq-form-box form .select-box .nice-select:after {
+  left: 32px;
+  right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=============================================
+    RTL Page Responsive Css
+=============================================
+***/
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+
+
+  .rtl .header-left .nav-outer {
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .rtl .experience__top-box__content {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .rtl .skill-content-box {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+
+
+
+  .rtl .footer-top-style9__content {
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+}

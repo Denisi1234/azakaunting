@@ -1,0 +1,2705 @@
+/*** 
+=============================================
+    service Style1 Area Css
+=============================================
+***/
+.service-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 90px;
+    z-index: 10;
+}
+
+.service-style1__top-title {
+    position: relative;
+    display: block;
+    padding-bottom: 46px;
+}
+
+.service-style1__top-title .icon {
+    position: relative;
+    display: block;
+    line-height: 0;
+    padding-bottom: 21px;
+}
+
+.service-style1__top-title .icon span:before {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    line-height: 50px;
+    background: #81b754;
+    background: -webkit-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: -moz-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fa-spin 5s ease infinite;
+}
+
+.service-style1__top-title h2 {
+    font-size: 48px;
+    line-height: 1.2em;
+}
+
+.service-style1__top-title h2 span {
+    font-weight: 300;
+}
+
+
+.single-service-style1 {
+    position: relative;
+    display: block;
+    padding-top: 35px;
+    margin: 0 0 30px;
+}
+
+.single-service-style1 .img-holder {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.single-service-style1 .img-holder:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+    opacity: 0.80;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    z-index: 2;
+    transform: scale(0.0);
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transition: all 500ms ease 100ms;
+}
+
+.single-service-style1:hover .img-holder:before {
+    transform: scale(1.0);
+}
+
+.single-service-style1 .icon {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.single-service-style1 .icon img {
+    transform: scale(1);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+.single-service-style1:hover .icon img {
+    transform: scale(0.7);
+}
+
+
+.single-service-style1 .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.single-service-style1 .img-holder .inner img {
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 700ms ease;
+}
+
+.single-service-style1:hover .img-holder .inner img {
+    transform: scale(1.2);
+}
+
+
+.single-service-style1 .overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.single-service-style1 .overlay-content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.49);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0.49) 43%, rgba(255, 255, 255, 0.5) 43%, rgba(255, 255, 255, 0.52) 46%, rgba(255, 255, 255, 0.94) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.49)), color-stop(43%, rgba(255, 255, 255, 0.49)), color-stop(43%, rgba(255, 255, 255, 0.5)), color-stop(46%, rgba(255, 255, 255, 0.52)), color-stop(100%, rgba(255, 255, 255, 0.94)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0.49) 43%, rgba(255, 255, 255, 0.5) 43%, rgba(255, 255, 255, 0.52) 46%, rgba(255, 255, 255, 0.94) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0.49) 43%, rgba(255, 255, 255, 0.5) 43%, rgba(255, 255, 255, 0.52) 46%, rgba(255, 255, 255, 0.94) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0.49) 43%, rgba(255, 255, 255, 0.5) 43%, rgba(255, 255, 255, 0.52) 46%, rgba(255, 255, 255, 0.94) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0.49) 43%, rgba(255, 255, 255, 0.5) 43%, rgba(255, 255, 255, 0.52) 46%, rgba(255, 255, 255, 0.94) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+    z-index: -1;
+    transform: scale(1.0);
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transition: all 500ms ease 100ms;
+}
+
+.single-service-style1:hover .overlay-content:before {
+    opacity: 0;
+}
+
+.single-service-style1 .title-holder {
+    position: relative;
+    display: block;
+    padding-bottom: 42px;
+}
+
+.single-service-style1 .title-holder h3 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.single-service-style1 .title-holder h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style1:hover .title-holder h3 a {
+    color: #ffffff;
+    transition: all 500ms ease;
+}
+
+.single-service-style1:hover .title-holder h3 a:hover {
+    color: var(--thm-black);
+}
+
+.single-service-style1 .title-holder p {
+    color: #777777;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.single-service-style1:hover .title-holder p {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+
+
+/*** 
+=============================================
+    service Style2 Area Css
+=============================================
+***/
+.service-style2-area {
+    position: relative;
+    display: block;
+    padding: 0px 0 80px;
+    background: #ffffff;
+    z-index: 10;
+}
+
+
+.service-style2__top-title {
+    position: relative;
+    display: block;
+    padding-bottom: 46px;
+}
+
+.service-style2__top-title .icon {
+    position: relative;
+    display: block;
+    line-height: 0;
+    padding-bottom: 21px;
+}
+
+.service-style2__top-title .icon span:before {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    line-height: 50px;
+    background: #81b754;
+    background: -webkit-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: -moz-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fa-spin 5s ease infinite;
+}
+
+.service-style2__top-title h2 {
+    font-size: 48px;
+    line-height: 1.2em;
+}
+
+.service-style2__top-title h2 span {
+    font-weight: 300;
+}
+
+
+.single-service-style2 {
+    position: relative;
+    display: block;
+    padding-top: 35px;
+    margin: 0 0 35px;
+}
+
+.single-service-style2 .icon {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.single-service-style2 .icon img {
+    transform: scale(1);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+.single-service-style2:hover .icon img {
+    transform: scale(0.7);
+}
+
+.single-service-style2 .img-holder {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.single-service-style2 .img-holder:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px;
+    opacity: 0.80;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    z-index: 2;
+    transform: scale(0.0);
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transition: all 500ms ease 100ms;
+}
+
+.single-service-style2:hover .img-holder:before {
+    transform: scale(1.0);
+}
+
+.single-service-style2 .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.single-service-style2 .img-holder .inner img {
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 700ms ease;
+}
+
+.single-service-style2:hover .img-holder .inner img {
+    transform: scale(1.2);
+}
+
+
+
+.single-service-style2 .title-holder {
+    position: relative;
+    display: block;
+    padding-top: 24px;
+}
+
+.single-service-style2 .title-holder h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.single-service-style2 .title-holder h3 a {
+    color: var(--thm-black);
+}
+
+.single-service-style2 .title-holder h3 a:hover {
+    color: var(--thm-base);
+}
+
+.single-service-style2 .title-holder p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #81b754;
+    background: -webkit-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: -moz-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+/*** 
+=============================================
+    service Style3 Area Css
+=============================================
+***/
+.service-style3-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 80px;
+    z-index: 10;
+}
+
+
+.single-service-style3 {
+    position: relative;
+    display: block;
+    margin: 0 0 32px;
+}
+
+.single-service-style3 .img-holder {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 10px 30px 0px rgb(12 21 41 / 15%);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.single-service-style3:hover .img-holder {
+    box-shadow: 0px 10px 50px 0px rgb(12 21 41 / 20%);
+}
+
+.single-service-style3 .img-holder .icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.single-service-style3 .img-holder .icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    z-index: -1;
+}
+
+.single-service-style3:hover .img-holder .icon:before {
+    transform: scale(0);
+}
+
+.single-service-style3 .img-holder .icon:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: scale(0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    z-index: -1;
+}
+
+.single-service-style3:hover .img-holder .icon:after {
+    transform: scale(1.0);
+}
+
+.single-service-style3 .img-holder .icon span:before {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style3:hover .img-holder .icon span:before {
+    color: var(--thm-base);
+}
+
+.single-service-style3 .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.single-service-style3 .img-holder .inner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.80;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    transform: scale(0.0);
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transition: all 500ms ease 100ms;
+    z-index: 2;
+}
+
+.single-service-style3:hover .img-holder .inner:before {
+    transform: scale(1.0);
+}
+
+.single-service-style3 .img-holder .inner img {
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 700ms ease;
+}
+
+.single-service-style3:hover .img-holder .inner img {
+    transform: scale(1.2);
+}
+
+
+
+.single-service-style3 .title-holder {
+    position: relative;
+    display: block;
+    padding-top: 24px;
+}
+
+.single-service-style3 .title-holder h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.single-service-style3 .title-holder h3 span {
+    font-weight: 300;
+}
+
+.single-service-style3 .title-holder h3 a {
+    color: var(--thm-black);
+}
+
+.single-service-style3 .title-holder h3 a:hover {
+    color: var(--thm-base);
+}
+
+.single-service-style3 .title-holder p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+
+
+/*** 
+=============================================
+    service Style4 Area Css
+=============================================
+***/
+.service-style4-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 80px;
+    z-index: 10;
+}
+
+.single-service-style4 {
+    position: relative;
+    display: block;
+    padding: 60px 40px 51px;
+    box-shadow: 0px -5px 25px 0px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.single-service-style4 .icon-holder {
+    position: relative;
+    display: block;
+}
+
+.single-service-style4 .icon-holder span:before {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-black);
+    font-size: 70px;
+    line-height: 70px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style4:hover .icon-holder span:before {
+    color: var(--thm-base);
+    transform: scale(1.2);
+}
+
+
+.single-service-style4 .title-holder {
+    position: relative;
+    display: block;
+    padding-top: 36px;
+}
+
+.single-service-style4 .title-holder h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: var(--thm-font-3);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    margin: 0 0 14px;
+}
+
+.single-service-style4:hover .title-holder h3 {
+    letter-spacing: 0.1em;
+}
+
+.single-service-style4 .title-holder h3 a {
+    color: #1f2026;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style4:hover .title-holder h3 a {
+    background: #81b754;
+    background: -webkit-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: -moz-linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    background: linear-gradient(to right, #81b754 0%, #a4c10a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.single-service-style4 .title-holder p {
+    margin: 0;
+}
+
+
+
+
+/*** 
+=============================================
+    service Style5 Area Css
+=============================================
+***/
+.service-style5-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 109px;
+    z-index: 10;
+}
+
+.service-style5-area__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 475px;
+    right: 0;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.service-style5-area__bg .shape1 {
+    position: absolute;
+    left: 200px;
+    top: 40%;
+}
+
+.service-style5-area__bg .shape2 {
+    position: absolute;
+    top: 20px;
+    right: 30%;
+}
+
+.service-style5-area__bg .shape3 {
+    position: absolute;
+    bottom: 170px;
+    right: 200px;
+}
+
+
+
+
+.service-style5-area .sec-title-style2 .icon span:before {
+    color: #ffffff;
+    -webkit-text-fill-color: currentColor;
+}
+
+.service-style5-area .sec-title-style2.style2instyle3 h2 {
+    color: #ffffff;
+    font-weight: 300;
+    font-family: var(--thm-font-3);
+}
+
+
+#destination-form {
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.destination-form__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 90px;
+    z-index: 11;
+}
+
+.form-input-box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-input-box .box1 {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.form-input-box .box1 .single {
+    position: relative;
+    display: block;
+    max-width: 25%;
+    width: 100%;
+    float: left;
+}
+
+.form-input-box .box1 .single::before {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    bottom: 15px;
+    background: #dad9e0;
+    width: 2px;
+    content: "";
+    z-index: 1;
+}
+
+.form-input-box .box1 .single:last-child::before {
+    display: none;
+}
+
+.destination-form__inner input[type="text"],
+.destination-form__inner input[type="email"],
+.destination-form__inner input[type="tel"],
+.destination-form__inner textarea {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    width: 100%;
+    height: 100px;
+    border: 0px solid #edeef2;
+    color: var(--thm-gray);
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 0px;
+    transition: all 500ms ease;
+    font-family: var(--thm-font);
+}
+
+
+.destination-form__inner .select-box.style2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.destination-form__inner .select-box.style2 .nice-select {
+    height: 100px;
+    line-height: 100px;
+    background: var(--thm-base);
+    border: none !important;
+    border-bottom: 0px solid #ece9ea !important;
+    border-radius: 0px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center !important;
+    font-family: var(--thm-font);
+    margin-left: -2px;
+    z-index: 1;
+}
+
+.destination-form__inner .select-box.style2 .nice-select:after {
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    right: 31px;
+    margin-top: 0px;
+    top: 43px;
+    z-index: 10;
+}
+
+
+
+
+.destination-form__inner .button-box {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    bottom: 0px;
+    width: 90px;
+    padding: 10px;
+    padding-left: 0;
+    background-color: var(--thm-base);
+}
+
+.destination-form__inner .button-box button {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    color: var(--thm-base);
+    font-size: 40px;
+}
+
+.destination-form__inner .button-box button:hover {
+    color: #ffffff;
+}
+
+.destination-form__inner .button-box button.btn-one.style3:before {
+    top: 5px;
+    bottom: 5px;
+    background-color: var(--thm-black);
+}
+
+
+
+.single-service-style5 {
+    position: relative;
+    display: block;
+    margin-top: 50px;
+}
+
+.single-service-style5 .img-holder {
+    position: relative;
+    display: block;
+}
+
+.single-service-style5 .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 1;
+}
+
+.single-service-style5 .img-holder .inner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background: var(--thm-black);
+    transform: scale(1.0);
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transition: all 500ms ease 100ms;
+    z-index: 2;
+}
+
+.single-service-style5:hover .img-holder .inner:before {
+    opacity: 0.80;
+    transform: scale(1.0);
+}
+
+.single-service-style5 .img-holder .inner img {
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 700ms ease;
+}
+
+.single-service-style5:hover .img-holder .inner img {
+    transform: scale(1.2);
+}
+
+
+.single-service-style5 .img-holder .flag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 7px;
+    z-index: 2;
+}
+
+.single-service-style5 .img-holder .flag img {
+    width: 100%;
+}
+
+
+.single-service-style5 .title-holder {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.06);
+    padding: 25px 30px 39px;
+    z-index: 1;
+}
+
+.single-service-style5 .title-holder:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--thm-base);
+    transform: scaleY(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 500ms ease 100ms;
+    z-index: -1;
+}
+
+.single-service-style5:hover .title-holder:before {
+    transform: scaleY(1.0);
+}
+
+.single-service-style5 .title-holder h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 0 0 13px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style5:hover .title-holder h3 {
+    color: #ffffff;
+}
+
+.single-service-style5 .title-holder h3 span {
+    font-weight: 700;
+}
+
+.single-service-style5 .title-holder ul {
+    position: relative;
+    display: block;
+}
+
+.single-service-style5 .title-holder ul li {
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.single-service-style5 .title-holder ul li a {
+    color: var(--thm-gray);
+    transition: all 200ms linear;
+    transition-delay: 0.2s;
+}
+
+.single-service-style5:hover .title-holder ul li a {
+    color: #ffffff;
+}
+
+.single-service-style5 .title-holder ul li a:hover {
+    color: var(--thm-black);
+    text-decoration: underline;
+}
+
+
+.service-style5-bottom-text {
+    position: relative;
+    display: block;
+    padding-top: 62px;
+}
+
+.service-style5-bottom-text h3 {
+    color: var(--thm-black);
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: var(--thm-font-3);
+}
+
+.service-style5-bottom-text h3 a {
+    color: var(--thm-base);
+    font-style: normal;
+    font-family: var(--thm-font-2);
+}
+
+
+
+/*** 
+=============================================
+    service Style6 Area Css
+=============================================
+***/
+.service-style6-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 80px;
+    z-index: 10;
+}
+
+.single-service-style6 {
+    position: relative;
+    display: block;
+    padding-bottom: 35px;
+    margin-bottom: 40px;
+}
+
+.single-service-style6 .inner {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 30px 30px 35px;
+    box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.03);
+    transition: all 100ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style6:hover .inner {
+    box-shadow: 0px 20px 32px 8px rgba(0, 0, 0, 0.06);
+}
+
+.single-service-style6 .inner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 3px;
+    background: #e5e8ea;
+}
+
+.single-service-style6 .inner:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 3px;
+    background: var(--thm-base);
+    opacity: 0;
+    transform: perspective(400px) scaleX(0);
+    transform-origin: center;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.single-service-style6:hover .inner:after {
+    opacity: 1.0;
+    transform: perspective(400px) scaleX(1.0);
+}
+
+
+.single-service-style6 .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-service-style6 .img-holder:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.80;
+    background: var(--thm-black);
+    opacity: 0;
+    transform: scale(0.7);
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transition: all 500ms ease 100ms;
+    z-index: 2;
+}
+
+.single-service-style6:hover .img-holder:before {
+    opacity: .7;
+    transform: scale(1.0);
+}
+
+.single-service-style6 .img-holder img {
+    width: 100%;
+}
+
+.single-service-style6 .text-holder {
+    position: relative;
+    display: block;
+    padding: 20px 0 36px;
+}
+
+.single-service-style6 .text-holder h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+.single-service-style6 .text-holder h3 span {
+    font-weight: 700;
+}
+
+.single-service-style6 .text-holder p {
+    margin: 0;
+}
+
+.single-service-style6 .icon-holder {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 20px 32px 8px rgba(18, 18, 18, 0.1);
+    z-index: 3;
+}
+
+.single-service-style6 .icon-holder:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--thm-base);
+    content: "";
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+.single-service-style6:hover .icon-holder:before {
+    transform: scaleX(1.0);
+}
+
+.single-service-style6 .icon-holder span:before {
+    position: relative;
+    display: block;
+    color: #777777;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style6:hover .icon-holder span:before {
+    color: #ffffff;
+}
+
+
+
+
+/*** 
+=============================================
+    service Style7 Area Css
+=============================================
+***/
+.service-style7-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 115px 0 75px;
+    z-index: 10;
+}
+
+.service-style7__top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 66px;
+}
+
+.service-style7__top .title-box {
+    position: relative;
+    display: block;
+    max-width: 700px;
+    width: 100%;
+}
+
+.service-style7__top .title-box h3 {
+    color: var(--thm-base);
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+.service-style7__top .title-box h3 span {
+    color: var(--thm-black);
+}
+
+.service-style7__top .title-box h2 {
+    font-size: 52px;
+    line-height: 72px;
+    font-weight: 300;
+    margin: 28px 0 36px;
+}
+
+.service-style7__top .title-box h2 span {
+    color: var(--thm-base);
+}
+
+.service-style7__top .title-box .border-box {
+    position: relative;
+    display: block;
+    width: 270px;
+    height: 1px;
+    background: #d9dde1;
+}
+
+.service-style7__top .title-box .border-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    background: var(--thm-base);
+}
+
+
+
+.service-style7__top .text-box {
+    position: relative;
+    display: block;
+    max-width: 470px;
+    width: 100%;
+}
+
+.service-style7__top .text-box p {
+    margin: 0;
+}
+
+
+.single-service-style7 {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.single-service-style7 .text-holder {
+    position: relative;
+    display: block;
+    padding-right: 60px;
+}
+
+.single-service-style7 .text-holder h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0 0 16px;
+}
+
+.single-service-style7 .text-holder h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style7 .text-holder h3 a:hover {
+    color: var(--thm-base);
+}
+
+.single-service-style7 .text-holder h3 span {
+    font-weight: 700;
+}
+
+.single-service-style7 .text-holder p {
+    margin: 0;
+}
+
+.single-service-style7 .icon-holder {
+    position: relative;
+    display: inline-block;
+    margin-top: 21px;
+    font-size: 60px;
+    line-height: 60px;
+    transition: all 100ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style7:hover .icon-holder {
+    transform: scale(0.8) translateX(5px) translateY(-5px);
+}
+
+
+
+.single-service-style7--style2 {}
+
+.single-service-style7--style2 .text-holder h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+}
+
+.single-service-style7--style2 .text-holder p {
+    letter-spacing: 0.12em;
+}
+
+.single-service-style7--style2 .icon-holder {
+    margin-top: 21px;
+    color: var(--thm-base);
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+/*** 
+=============================================
+    Service Style8 Area Css
+=============================================
+***/
+.service-style8-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-bottom: 120px;
+    z-index: 10;
+}
+
+.service-style8-area.pdtop120 {
+    padding-top: 120px;
+}
+
+.service-style8-area .sec-title-style5 {
+    padding-bottom: 98px;
+}
+
+.service-style8__content-left {
+    position: relative;
+    display: block;
+}
+
+.service-style8__content-left ul {
+    position: relative;
+    display: block;
+}
+
+.service-style8__content-left ul li {
+    position: relative;
+    display: block;
+}
+
+.service-style8__content-left ul li+li {
+    margin-top: 53px;
+}
+
+
+.single-service-style8 {
+    position: relative;
+    display: block;
+    padding-left: 70px;
+    min-height: 60px;
+}
+
+.single-service-style8 .count-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    z-index: 1;
+}
+
+.single-service-style8 .count-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--thm-base);
+    z-index: -1;
+    -moz-transform: skew(-7deg, 0deg);
+    -webkit-transform: skew(-7deg, 0deg);
+    -o-transform: skew(-7deg, 0deg);
+    -ms-transform: skew(-7deg, 0deg);
+    transform: skew(-7deg, 0deg);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style8:hover .count-box:before {
+    background: var(--thm-black);
+    -moz-transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+}
+
+.single-service-style8 .count-box h3 {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.single-service-style8 .text-box {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+}
+
+.single-service-style8 .text-box h3 {
+    position: relative;
+    top: -1px;
+    color: var(--thm-black);
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 0 0 9px;
+}
+
+.single-service-style8 .text-box h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style8 .text-box h3 a:hover {
+    color: var(--thm-base);
+}
+
+.single-service-style8 .text-box h3 span {
+    font-weight: 700;
+}
+
+.single-service-style8 .text-box p {
+    line-height: 24px;
+    margin: 0;
+}
+
+
+.single-service-style8--instyle2 {}
+
+.single-service-style8--instyle2 .count-box:before {
+    background: #ebedef;
+}
+
+.single-service-style8--instyle2 .count-box h3 {
+    color: var(--thm-base);
+}
+
+.single-service-style8--instyle2 .text-box h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.single-service-style8--instyle2 .text-box p {
+    letter-spacing: 0.12em;
+}
+
+
+
+.service-style8__content-right {
+    position: relative;
+    display: block;
+}
+
+.service-style8__content-right ul {
+    position: relative;
+    display: block;
+}
+
+.service-style8__content-right ul li {
+    position: relative;
+    display: block;
+}
+
+.service-style8__content-right ul li+li {
+    margin-top: 53px;
+}
+
+
+.service-style8__image-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/*** 
+=============================================
+    service Style9 Area Css
+=============================================
+***/
+.service-style9-area {
+    position: relative;
+    display: block;
+    background: #f6f6f6;
+    padding: 115px 0 80px;
+    z-index: 10;
+}
+
+.service-style9-area.bg-white {
+    background-color: #ffffff;
+}
+
+.service-style9-area .pattern-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #f6f6f6;
+}
+
+.service-style9__top {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.service-style9__top .title-box {
+    position: relative;
+    display: block;
+    max-width: 700px;
+    width: 100%;
+}
+
+.service-style9__top .title-box h3 {
+    color: var(--thm-base);
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.service-style9__top .title-box h2 {
+    font-size: 52px;
+    line-height: 72px;
+    font-weight: 300;
+    margin: 28px 0 36px;
+}
+
+.service-style9__top .title-box h2 span {
+    color: var(--thm-base);
+}
+
+.service-style9__top .title-box .border-box {
+    position: relative;
+    display: block;
+    width: 270px;
+    height: 1px;
+    background: #d9dde1;
+}
+
+.service-style9__top .title-box .border-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    background: var(--thm-base);
+}
+
+.service-style9__top .text-box {
+    position: relative;
+    display: block;
+    max-width: 470px;
+    width: 100%;
+}
+
+.service-style9__top .text-box p {
+    margin: 0;
+}
+
+.service-style9__top .text-box.style2 p {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.12em;
+}
+
+
+
+.service-style9__service-list {
+    position: relative;
+    display: block;
+    margin-right: 70px;
+}
+
+.service-style9__service-list ul {
+    position: relative;
+    display: block;
+}
+
+.service-style9__service-list ul li {
+    position: relative;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.service-style9__service-list ul li:last-child {
+    margin-bottom: 0;
+}
+
+.service-style9__service-list ul li a {
+    position: relative;
+    display: block;
+    color: var(--thm-black);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: var(--thm-font-2);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.service-style9__service-list ul li:hover a {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.service-style9__service-list ul li a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--thm-base);
+    z-index: -1;
+    transform: perspective(400px) scaleX(0);
+    transform-origin: left;
+    transition: all 500ms ease;
+}
+
+.service-style9__service-list ul li:hover a::before {
+    transform: perspective(400px) scaleX(1.0);
+}
+
+
+
+.service-style9__image-box {
+    position: relative;
+    display: block;
+}
+
+.service-style9__image-box .single-image-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.service-style9__image-box .single-image-box.right {}
+
+.service-style9__image-box .single-image-box img {
+    width: 100%;
+}
+
+
+.how-can-help-content {
+    position: relative;
+    display: block;
+    padding-top: 120px;
+}
+
+.how-can-help__single-box {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.how-can-help__single-box .img-holder {
+    position: relative;
+    display: block;
+}
+
+.how-can-help__single-box .img-holder img {
+    width: 100%;
+}
+
+.how-can-help__single-box .text-holder {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 24px 30px 41px;
+}
+
+.how-can-help__single-box .text-holder h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: var(--thm-font-3);
+    margin-bottom: 12px;
+}
+
+.how-can-help__single-box .text-holder p {
+    margin: 0;
+}
+
+
+
+/*** 
+=============================================
+    service Style10 Area Css
+=============================================
+***/
+.service-style10-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 80px 0 80px;
+    z-index: 10;
+}
+
+.service-style10-area.pdb120 {
+    padding-bottom: 120px;
+}
+
+.service-style10-area .pattern-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+.single-service-style10 {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: -55px;
+}
+
+.single-service-style10.pdtop {
+    padding-top: 70px;
+}
+
+.single-service-style10 .inner {
+    position: relative;
+    display: block;
+    padding: 40px 20px 42px;
+    z-index: 1;
+}
+
+.single-service-style10 .inner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #ffffff;
+    transform: perspective(400px) scaleX(0);
+    transform-origin: center;
+    transition: all 400ms linear;
+    transition-delay: 0.1s;
+    box-shadow: 0px 10px 50px 0px rgba(26, 46, 85, 0.10);
+    z-index: -1;
+}
+
+.single-service-style10:hover .inner:before {
+    transform: perspective(400px) scaleX(1.0);
+    transition: all 400ms linear;
+    transition-delay: 0.1s;
+}
+
+
+.single-service-style10 .icon-holder {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.single-service-style10 .icon-holder span::before {
+    position: relative;
+    display: inline-block;
+    color: rgba(var(--thm-black-rgb), .30);
+    font-size: 70px;
+    line-height: 70px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style10:hover .icon-holder span::before {
+    color: rgba(var(--thm-black-rgb), 1.0);
+    transform: scale(0.8);
+}
+
+.single-service-style10 .text-holder {
+    position: relative;
+    display: block;
+}
+
+.single-service-style10 .text-holder h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0 0 18px;
+}
+
+.single-service-style10 .text-holder h4 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style10:hover .text-holder h4 a {
+    color: var(--thm-base);
+}
+
+.single-service-style10 .text-holder p {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+/*** 
+=============================================
+    service Style11 Area Css
+=============================================
+***/
+.service-style11-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 90px 0px 90px;
+}
+
+.service-style11__title .sec-title-style6 h2 {
+    font-size: 34px;
+}
+
+.single-service-style11 {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 24px 60px 0px rgba(0, 0, 0, 0.05);
+    padding: 50px 30px 60px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+.single-service-style11:hover {
+    box-shadow: 0px 24px 60px 0px rgba(0, 0, 0, 0.10);
+}
+
+.single-service-style11 .overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--thm-base);
+    z-index: -1;
+    transform: scaleX(0);
+    transition: all 700ms ease 100ms;
+}
+
+.single-service-style11:hover .overlay-bg {
+    transform: scaleX(1.0);
+}
+
+
+.single-service-style11 .icon {
+    position: relative;
+    display: block;
+    margin-bottom: 37px;
+}
+
+.single-service-style11 .icon span:before {
+    position: relative;
+    display: inline-block;
+    color: rgba(var(--thm-black-rgb), 0.2);
+    font-size: 50px;
+    line-height: 50px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style11:hover .icon span:before {
+    color: rgba(var(--thm-black-rgb), 1.0);
+    transform: skewX(-5deg) scale(1.1);
+}
+
+.single-service-style11 h4 {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 13px;
+}
+
+.single-service-style11 h4 a {
+    color: var(--thm-black);
+}
+
+.single-service-style11:hover h4 a {
+    color: var(--thm-base);
+}
+
+.single-service-style11 p {
+    color: #64656a;
+    letter-spacing: 0.12em;
+    margin: 0;
+    transition: all 700ms linear;
+    transition-delay: 0.1s;
+}
+
+
+
+
+.single-service-style11.overlay-content-white {
+    padding: 54px 30px 60px;
+}
+
+.single-service-style11.overlay-content-white:hover .icon span:before {
+    color: #ffffff;
+}
+
+.single-service-style11.overlay-content-white:hover:hover h4 a {
+    color: #ffffff;
+}
+
+.single-service-style11.overlay-content-white:hover:hover p {
+    color: #ffffff;
+}
+
+
+
+/*** 
+=============================================
+    service Style12 Area Css
+=============================================
+***/
+.service-style12-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0px 70px;
+}
+
+.service-style12-area.pdtop {
+    padding-top: 120px;
+}
+
+.single-service-style12 {
+    position: relative;
+    display: block;
+    margin-bottom: 41px;
+}
+
+.single-service-style12 .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: var(--thm-base);
+    border-radius: 10px;
+}
+
+.single-service-style12 .img-holder img {
+    width: 100%;
+    transition: all 900ms linear;
+    transition-delay: 0.2s;
+}
+
+.single-service-style12:hover .img-holder img {
+    transform: scale(1.1) rotate(2deg);
+    opacity: 0.60;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+
+.single-service-style12 .text-holder {
+    position: relative;
+    display: block;
+    padding-top: 27px;
+}
+
+.single-service-style12 .text-holder h3 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.single-service-style12 .text-holder h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style12 .text-holder h3 a:hover {
+    color: var(--thm-base);
+}
+
+.single-service-style12 .text-holder p {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
+/*** 
+=============================================
+    service Style13 Area Css
+=============================================
+***/
+.service-style13-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0px 77px;
+}
+
+.service-style13__title {
+    position: relative;
+    display: block;
+    margin-top: -9px;
+}
+
+.service-style13__title h2 {
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+
+
+.single-service-style13 {
+    position: relative;
+    display: block;
+    margin-bottom: 43px;
+}
+
+.single-service-style13 .inner-title {
+    position: relative;
+    display: block;
+    margin-top: -5px;
+    padding-bottom: 39px;
+}
+
+.single-service-style13 .inner-title h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.single-service-style13 ul {
+    position: relative;
+    display: block;
+}
+
+.single-service-style13 ul li {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: var(--thm-font-2);
+}
+
+.single-service-style13 ul li+li {
+    margin-top: 41px;
+}
+
+.single-service-style13 ul li a {
+    position: relative;
+    display: inline-block;
+    line-height: 24px;
+    color: var(--thm-black);
+    transition: all 500ms ease;
+}
+
+.single-service-style13 ul li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    background: var(--thm-black);
+}
+
+.single-service-style13 ul li a:hover {
+    color: var(--thm-base);
+}
+
+
+
+/*** 
+=============================================
+    service Style14 Area Css
+=============================================
+***/
+.service-style14-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0px 90px;
+    z-index: 10;
+}
+
+.service-style14-area.pdtop120 {
+    padding-top: 120px;
+}
+
+.service-style14-area .sec-title-style7 h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+
+
+.service-form-box-style14 {
+    max-width: 100%;
+}
+
+.service-form-box-style14 #movers-form {
+    padding-top: 20px;
+}
+
+.service-form-box-style14 form textarea {
+    height: 50px;
+}
+
+.service-form-box-style14 .button-box {
+    padding-top: 11px;
+}
+
+.service-form-box-style14 .button-box .btn-one.style2 {
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.service-form-box-style14 .button-box .btn-one .border-box.thm-base {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.service-form-box-style14 .button-box .btn-one .bg.bg--base {
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 0px;
+}
+
+.service-form-box-style14 .button-box .btn-one.thm-base:before {
+    background-color: var(--thm-black);
+    border-radius: 0;
+}
+
+
+
+/*** 
+=============================================
+    service Style15 Area Css
+=============================================
+***/
+.service-style15-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0px 110px;
+}
+
+.service-style15-area.pdb120 {
+    padding-bottom: 120px;
+}
+
+.service-style15__title {
+    position: relative;
+    display: block;
+    margin-top: -9px;
+}
+
+.service-style15__title h2 {
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+
+
+
+.service-style15-image-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 470px;
+}
+
+.service-style15-image-box .main-img-box {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.service-style15-image-box .round-box {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.service-style15-image-box .round-box .inner {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 170px;
+    height: 170px;
+    background: var(--thm-base);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10.45px 0.55px rgba(0, 0, 0, 0.08);
+}
+
+.service-style15-image-box .round-box .inner span:before {
+    position: relative;
+    display: block;
+    color: var(--thm-black);
+    font-size: 70px;
+    line-height: 70px;
+}
+
+
+
+/*** 
+=============================================
+    service Style16 Area Css
+=============================================
+***/
+.service-style16-area {
+    position: relative;
+    display: block;
+    background: #f7f7f7;
+    padding: 120px 0 120px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.service-style16-area-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.30;
+    z-index: -1;
+}
+
+.service-style16__content {
+    position: relative;
+    display: block;
+    padding-left: 170px;
+}
+
+.service-style16__content ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+
+
+.service-style16__content .space-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin: 14px 0 16px;
+}
+
+.service-style16__content .space-box .border-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+}
+
+.service-style16__content .space-box .border-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    width: 1px;
+    background: rgba(var(--thm-black-rgb), .10);
+}
+
+.single-service-style16 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+}
+
+.single-service-style16 .text-box {
+    position: relative;
+    display: block;
+    max-width: 300px;
+    width: 100%;
+}
+
+.single-service-style16 .text-box h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.single-service-style16 .text-box h4 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style16:hover .text-box h4 a {
+    color: var(--thm-base);
+}
+
+.single-service-style16 .text-box p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.single-service-style16 .icon-box {
+    position: relative;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-service-style16 .icon-box span:before {
+    position: relative;
+    display: inline-block;
+    color: rgba(var(--thm-black-rgb), .30);
+    font-size: 40px;
+    line-height: 40px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style16:hover .icon-box span:before {
+    color: rgba(var(--thm-black-rgb), 1.0);
+    transform: scale(1.1);
+}
+
+
+
+.service-style16__content--right {
+    padding-left: 0;
+    padding-right: 170px;
+}
+
+.service-style16__content--right .single-service-style16 {
+    flex-direction: row-reverse;
+    text-align: left;
+}
+
+.service-style16__content--right .space-box .border-box {
+    left: 0;
+    right: auto;
+}
+
+
+
+/*** 
+=============================================
+    Service Page 1 Css
+=============================================
+***/
+.service-page-1 {
+    position: relative;
+    display: block;
+    background: #f8f8f8;
+    padding: 120px 0 80px;
+}
+
+
+
+/*** 
+=============================================
+    Service Page 3 Css
+=============================================
+***/
+.service-page3 {
+    position: relative;
+    display: block;
+    background: transparent;
+    margin-top: -400px;
+    z-index: 10;
+}
+
+.service-page3__content {
+    position: relative;
+    display: block;
+    background: transparent;
+    padding-top: 120px;
+    z-index: 1;
+}
+
+.service-page3__content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -175px;
+    bottom: 0;
+    right: -175px;
+    background: #ffffff;
+}
+
+
+.single-servce-box {
+    position: relative;
+    display: block;
+    margin-bottom: 120px;
+}
+
+.single-servce-box .img-holder {
+    position: relative;
+    display: block;
+}
+
+.single-servce-box .img-holder img {
+    width: 100%;
+}
+
+
+
+.single-servce-box .text-holder {
+    position: relative;
+    display: block;
+    padding-top: 44px;
+    padding-left: 100px;
+}
+
+.single-servce-box .text-holder .inner-title {
+    position: relative;
+    display: block;
+    padding-bottom: 37px;
+}
+
+.single-servce-box .text-holder .inner-title h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.single-servce-box .text-holder .inner-title h3 span {
+    font-weight: 300;
+}
+
+
+.single-servce-box .text-holder h4 {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.single-servce-box .text-holder h4 span {
+    color: var(--thm-base);
+}
+
+.single-servce-box .text-holder .text {
+    position: relative;
+    display: block;
+    padding: 23px 0 41px;
+}
+
+.single-servce-box .text-holder .text p {
+    margin: 0;
+}
+
+.single-servce-box .text-holder .btn-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+
+
+.single-servce-box.style2 {}
+
+.single-servce-box.style2 .row {
+    flex-direction: row-reverse;
+}
+
+.single-servce-box.style2 .text-holder {
+    padding-left: 0px;
+    padding-right: 100px;
+}
+
+
+
+/*** 
+=============================================
+    Service Details Area Css
+=============================================
+***/
+.service-details-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 120px;
+    z-index: 10;
+}
+
+
+.service-details__content {
+    position: relative;
+    display: block;
+}
+
+.service-details-main-img-box {
+    position: relative;
+    display: block;
+}
+
+.service-details-main-img-box img {
+    width: 100%;
+}
+
+
+
+.service-details-top-content {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 41px;
+}
+
+.service-details-top-content p {
+    margin: 0;
+}
+
+
+.service-deatlis-text-box {
+    position: relative;
+    display: block;
+}
+
+.service-deatlis-text-box .text-holder {
+    position: relative;
+    display: block;
+}
+
+.service-deatlis-text-box .text-holder .inner-title {
+    position: relative;
+    display: block;
+    margin-top: -6px;
+    padding-bottom: 24px;
+}
+
+.service-deatlis-text-box .text-holder .inner-title h3 {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.service-deatlis-text-box .text-holder .inner-title h3 span {
+    font-weight: 300;
+}
+
+.service-deatlis-text-box .text-holder .text {}
+
+
+
+.service-details-text-box-2 {
+    position: relative;
+    display: block;
+    padding-top: 35px;
+}
+
+
+.service-details-quote-box {
+    position: relative;
+    display: block;
+    margin: 40px 0 40px;
+    padding-left: 100px;
+}
+
+.service-details-quote-box .icon {
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+
+.service-details-quote-box .icon span:before {
+    color: var(--thm-base);
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.service-details-quote-box .text {
+    position: relative;
+    display: block;
+}
+
+.service-details-quote-box .text h3 {
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+
+.service-details-bottom-text-box {
+    position: relative;
+    display: block;
+}
+
+.service-details-bottom-text-box p {
+    margin: 0;
+}
+
+
+
+
+
+.service-details-img-box {
+    position: relative;
+    display: block;
+}
+
+.service-details-img-box img {
+    width: 100%;
+}

@@ -1,0 +1,1534 @@
+/*** 
+=============================================
+    Project Style1 Area Css   
+=============================================
+***/
+.project-style1-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    padding-bottom: 90px;
+}
+
+.project-style1-area .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: 1920px;
+}
+
+
+.project-style1__content {
+    position: relative;
+    display: block;
+}
+
+.single-project-style1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.single-project-style1 .img-holder img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 2500ms ease;
+}
+
+.single-project-style1:hover .img-holder img {
+    transform: scale(1.2);
+}
+
+.single-project-style1 .content-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 30px;
+    z-index: 2;
+}
+
+.single-project-style1 .content-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.80;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: -1;
+}
+
+.single-project-style1:hover .content-box:before {
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.single-project-style1 .content-box h2 {
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin: 0 0 40px;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style1:hover .content-box h2 {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 500ms;
+}
+
+.single-project-style1 .content-box a {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style1:hover .content-box a {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 700ms;
+}
+
+.single-project-style1 .content-box a:hover {
+    color: var(--thm-black);
+}
+
+
+
+
+/*** 
+=============================================
+    Project Style2 Area Css   
+=============================================
+***/
+.project-style2-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 120px 0 120px;
+    z-index: 10;
+}
+
+.project-style2-area.pdb90 {
+    padding-bottom: 90px;
+}
+
+.single-project-style2 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.single-project-style2 .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-project-style2 .img-holder img {
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: all 500ms ease;
+}
+
+
+
+.single-project-style2 .content-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 30px;
+    z-index: 2;
+}
+
+.single-project-style2 .content-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.80;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: -1;
+}
+
+.single-project-style2:hover .content-box:before {
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.single-project-style2 .content-box h2 {
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin: 0 0 40px;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style2.fs26 .content-box h2 {
+    font-size: 26px;
+}
+
+
+.single-project-style2:hover .content-box h2 {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 500ms;
+}
+
+.single-project-style2 .content-box a {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style2:hover .content-box a {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 700ms;
+}
+
+.single-project-style2 .content-box a:hover {
+    color: var(--thm-black);
+}
+
+
+.project-style2__btn-box {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    line-height: 0;
+    text-align: center;
+}
+
+
+
+/*** 
+=============================================
+    Project Style3 Area Css   
+=============================================
+***/
+.project-style3-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 120px 0 120px;
+    z-index: 10;
+}
+
+.project-style3-area.pdb90 {
+    padding-bottom: 90px;
+}
+
+.single-project-style3 {
+    position: relative;
+    display: block;
+    box-shadow: 0px 10px 30px 0px rgb(26 46 85 / 10%);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    margin-bottom: 30px;
+}
+
+.single-project-style3:hover {
+    box-shadow: 0px 10px 30px 0px rgb(26 46 85 / 5%);
+}
+
+.single-project-style3 .img-holder {
+    position: relative;
+    display: block;
+    padding: 10px;
+}
+
+.single-project-style3 .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+
+.single-project-style3 .img-holder .inner:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: 2;
+    opacity: 0.80;
+    background-image: -moz-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(128, 183, 87) 0%, rgb(147, 188, 48) 40%, rgb(165, 193, 9) 100%);
+}
+
+.single-project-style3:hover .img-holder .inner:before {
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+
+
+.single-project-style3 .img-holder img {
+    width: 100%;
+}
+
+.single-project-style3:hover .img-holder img {
+    transform: scale(1.2) rotate(1deg);
+}
+
+.single-project-style3 .text-holder {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 19px 30px 30px;
+}
+
+.single-project-style3 .text-holder .title {
+    position: relative;
+    display: block;
+}
+
+.single-project-style3 .text-holder .title h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: var(--thm-font-3);
+}
+
+.single-project-style3 .text-holder .title h2 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-project-style3 .text-holder .title h2 a:hover {
+    color: var(--thm-base);
+}
+
+.single-project-style3 .text-holder .title p {
+    font-size: 16px;
+    margin: 3px 0 0;
+}
+
+.single-project-style3 .text-holder .icon {
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.50196) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.50196) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0.50196) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 0px 7.6px 0.4px rgba(0, 0, 0, 0.08);
+    z-index: 1;
+}
+
+.single-project-style3 .text-holder .icon:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: var(--thm-base);
+    content: "";
+    z-index: -1;
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+.single-project-style3:hover .text-holder .icon:before {
+    transform: scaleX(1.0);
+}
+
+.single-project-style3 .text-holder .icon span:before {
+    position: relative;
+    display: block;
+    color: var(--thm-base);
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-project-style3:hover .text-holder .icon span:before {
+    color: #ffffff;
+}
+
+.project-style3__button {
+    position: relative;
+    display: block;
+    padding-top: 40px;
+    line-height: 0;
+}
+
+
+
+/*** 
+=============================================
+    Project Style4 Area Css   
+=============================================
+***/
+.project-style4-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 120px 0 90px;
+    z-index: 10;
+}
+
+.project-style4__top-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+}
+
+.project-style4__top-box .sec-title-style4 {
+    padding-bottom: 0;
+}
+
+.project-style4__top-box .text {
+    position: relative;
+    display: block;
+    max-width: 470px;
+    width: 100%;
+    margin-bottom: -64px;
+}
+
+.project-style4__top-box .text p {
+    margin: 0;
+}
+
+
+.single-project-style4 {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.single-project-style4 .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-project-style4 .img-holder img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 2500ms ease;
+}
+
+.single-project-style4:hover .img-holder img {
+    transform: scale(1.2);
+}
+
+
+.single-project-style4 .content-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 30px;
+    z-index: 2;
+}
+
+.single-project-style4 .content-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.80;
+    background: var(--thm-base);
+    transform: perspective(400px) rotateX(0deg) scaleY(0.0);
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: -1;
+}
+
+.single-project-style4:hover .content-box:before {
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.single-project-style4 .content-box h2 {
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin: 0 0 29px;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style4:hover .content-box h2 {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 500ms;
+}
+
+.single-project-style4 .content-box a {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style4:hover .content-box a {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 700ms;
+}
+
+.single-project-style4 .content-box a:hover {
+    color: var(--thm-black);
+}
+
+
+
+/*** 
+=============================================
+    Projects style5 Area Css   
+=============================================
+***/
+.projects-style5-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0px 120px;
+    z-index: 10;
+}
+
+.projects-style5-area.pdtop120 {
+    padding-top: 120px;
+}
+
+.projects-style5-area .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.projects-style5__inner {
+    position: relative;
+    display: block;
+}
+
+
+.projects-style5__single {
+    position: relative;
+    display: block;
+}
+
+.projects-style5__single .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: var(--thm-black);
+}
+
+.projects-style5__single .img-holder img {
+    width: 100%;
+    transition: all 500ms linear;
+    transition-delay: 0.2s;
+}
+
+.projects-style5__single:hover .img-holder img {
+    transform: scale(1.1) rotate(0deg);
+    opacity: 0.50;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+}
+
+.projects-style5__single .img-holder .overlay-text {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: var(--thm-base);
+    padding: 20px 0px 20px;
+    text-align: center;
+    -webkit-transform: perspective(400px) rotateX(0deg) translateY(90px);
+    -ms-transform: perspective(400px) rotateX(0deg) translateY(90px);
+    transform: perspective(400px) rotateX(0deg) translateY(90px);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+}
+
+.projects-style5__single:hover .img-holder .overlay-text {
+    -webkit-transform: perspective(400px) rotateX(0deg) translateY(0px);
+    -ms-transform: perspective(400px) rotateX(0deg) translateY(0px);
+    transform: perspective(400px) rotateX(0deg) translateY(0px);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+    transition-property: all;
+}
+
+.projects-style5__single .img-holder .overlay-text h2 a {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 300;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.projects-style5__single .img-holder .overlay-text h2 a:hover {
+    color: var(--thm-black);
+}
+
+.projects-style5__single .img-holder .overlay-text h2 a span {
+    font-weight: 700;
+}
+
+
+.projects-carousel_5 {
+    position: relative;
+    display: block;
+    max-width: 370px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.projects-carousel_5.owl-theme .owl-stage-outer {
+    overflow: visible;
+}
+
+.projects-carousel_5.owl-theme .owl-stage-outer .owl-item.active .projects-style5__single .img-holder .overlay-text {
+    -webkit-transform: perspective(400px) rotateX(0deg) translateY(0px);
+    -ms-transform: perspective(400px) rotateX(0deg) translateY(0px);
+    transform: perspective(400px) rotateX(0deg) translateY(0px);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s;
+    transition-property: all;
+}
+
+
+
+/*** 
+=============================================
+    Projects style6 Area Css   
+=============================================
+***/
+.project-style6-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0px 0px;
+    z-index: 10;
+}
+
+.project-style6-area.pd120-0-90 {
+    padding: 120px 0 90px;
+}
+
+.project-style6-area .auto-container {
+    max-width: 1200px;
+}
+
+.single-project-style6 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.single-project-style6 .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-project-style6 .img-holder img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 2500ms ease;
+}
+
+.single-project-style6:hover .img-holder img {
+    transform: scale(1.2);
+}
+
+
+.single-project-style6 .content-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 40px;
+    padding-bottom: 46px;
+    padding-right: 30px;
+    z-index: 2;
+}
+
+.single-project-style6 .content-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.80;
+    background: #2c2c2c;
+    -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: -1;
+}
+
+.single-project-style6:hover .content-box:before {
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+
+.single-project-style6 .content-box:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    border: 10px solid var(--thm-base);
+    -webkit-transform: perspective(400px) rotateX(0deg) scale(1.5);
+    -ms-transform: perspective(400px) rotateX(0deg) scale(1.5);
+    transform: perspective(400px) rotateX(0deg) scale(1.5);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: -1;
+}
+
+.single-project-style6:hover .content-box:after {
+    opacity: 1;
+    -webkit-transform: perspective(400px) rotateX(0deg) scale(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scale(1.0);
+    transform: perspective(400px) rotateX(0deg) scale(1.0);
+    transition-delay: .5s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .9s;
+    transition-property: all;
+}
+
+
+
+.single-project-style6 .content-box h4 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: 0 0 17px;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style6:hover .content-box h4 {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 500ms;
+}
+
+.single-project-style6:hover .content-box h4 a {
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-project-style6:hover .content-box h4 a:hover {
+    color: var(--thm-base);
+}
+
+.single-project-style6 .content-box p {
+    color: rgba(255, 255, 255, .70);
+    font-size: 16px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style6:hover .content-box p {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 700ms;
+}
+
+
+
+
+/*** 
+=============================================
+    Projects style7 Area Css   
+=============================================
+***/
+.project-style7-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0px 120px;
+}
+
+.project-style7-area.pdtop120 {
+    padding-top: 120px;
+}
+
+.single-project-style7 {
+    position: relative;
+    display: block;
+}
+
+.single-project-style7 .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-project-style7 .img-holder img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 2500ms ease;
+}
+
+.single-project-style7 .content-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 560px;
+    width: 100%;
+    background: #ffffff;
+    padding: 24px 0;
+    transform: perspective(400px) translateY(100%);
+    transform-origin: left;
+    transition: all 700ms ease;
+    transition-delay: 0.1s;
+}
+
+.single-project-style7:hover .content-box {
+    opacity: 1;
+    transform: perspective(400px) translateY(0%);
+    transition-delay: 0.3s;
+}
+
+.single-project-style7 .content-box .inner {
+    position: relative;
+    display: block;
+    padding-left: 50px;
+}
+
+.single-project-style7 .content-box .border-box {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 40px;
+    height: 1px;
+    background: var(--thm-black);
+}
+
+.single-project-style7 .content-box .inner-title {
+    position: relative;
+    display: block;
+}
+
+.single-project-style7 .content-box .inner-title h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.single-project-style7 .content-box .inner-title h4 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-project-style7 .content-box .inner-title h4 a:hover {
+    color: var(--thm-base);
+}
+
+.single-project-style7 .content-box .inner-title p {
+    line-height: 18px;
+    margin: 10px 0 0;
+}
+
+
+.project-carousel_7.owl-carousel .owl-stage-outer {
+    margin-right: -445px;
+}
+
+
+.project-carousel_7.owl-carousel.owl-dot-style1 .owl-dots {
+    padding-top: 70px;
+}
+
+.project-carousel_7.owl-theme .owl-stage-outer .owl-item.active .single-project-style7 .content-box {
+    opacity: 1;
+    transform: perspective(400px) translateY(0%);
+    transition-delay: 0.3s;
+}
+
+
+
+
+
+/*** 
+=============================================
+    Projects style8 Area Css   
+=============================================
+***/
+.project-style8-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 120px 0px 183px;
+    background: #282828;
+    z-index: 10;
+}
+
+.project-style8-area .shape1 {
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    opacity: 0.20;
+}
+
+.project-style8-area .shape2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.20;
+}
+
+
+.project-menu-box {
+    position: relative;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.project-filter {
+    position: relative;
+    display: block;
+    margin-left: -10px;
+    margin-right: -10px;
+    z-index: 1;
+}
+
+.project-filter li {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.project-filter li .filter-text {
+    position: relative;
+    display: block;
+    padding: 10px 20px 10px;
+    color: var(--thm-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
+    background: #fff;
+    cursor: pointer;
+    transition: all .4s ease;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    font-family: var(--thm-font-2);
+    z-index: 1;
+}
+
+.project-filter li .filter-text:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    content: "";
+    background: var(--thm-base);
+    border-radius: 0px;
+    transform: scaleX(0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    z-index: -1;
+}
+
+.project-filter li:hover .filter-text:before,
+.project-filter li.active .filter-text:before {
+    transform: scaleX(1.0);
+}
+
+.project-filter li:hover .filter-text,
+.project-filter li.active .filter-text {
+    color: #ffffff;
+}
+
+.project-filter li .count {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 12px;
+    text-align: center;
+    top: -12px;
+    left: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--thm-font-2);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.1);
+    transform-origin: bottom;
+    transition-delay: .2s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .6s;
+    transition-property: all;
+    opacity: 1;
+    z-index: 1;
+    display: none;
+}
+
+.project-filter li:hover .count,
+.project-filter li.active .count {
+    opacity: 1.0;
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+}
+
+.project-filter li .count::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--thm-base);
+    content: "";
+    z-index: -1;
+}
+
+.project-filter li .count::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    z-index: -1;
+    border-bottom: 12px solid rgba(var(--thm-base-rgb), .80);
+    border-right: 10px solid transparent;
+}
+
+
+
+.single-project-style8 {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.single-project-style8 .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-project-style8 .img-holder .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: var(--thm-base);
+    z-index: 2;
+}
+
+.single-project-style8 .img-holder img {
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: all 500ms ease;
+}
+
+.single-project-style8:hover .img-holder img {
+    opacity: 0.20;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05) rotate(1deg);
+}
+
+
+.single-project-style8 .overlay-content {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #282828;
+    padding-left: 50px;
+    overflow: hidden;
+    z-index: 5;
+    -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+
+}
+
+.single-project-style8:hover .overlay-content {
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.single-project-style8 .overlay-content h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 700ms ease;
+}
+
+.single-project-style8:hover .overlay-content h3 {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 500ms;
+}
+
+.single-project-style8 .overlay-content h3 a {
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-project-style8 .overlay-content h3 a:hover {
+    color: var(--thm-base);
+}
+
+
+
+/*** 
+=============================================
+    Projects style9 Area Css   
+=============================================
+***/
+.project-style9-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 120px 0 90px;
+    z-index: 10;
+}
+
+.single-project-style1--instyle9 .content-box:before {
+    background-image: none;
+    background-color: var(--thm-base);
+}
+
+.single-project-style1--instyle9 .content-box h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+    margin: 0 0 29px;
+}
+
+
+
+/*** 
+=============================================
+    Projects style10 Area Css   
+=============================================
+***/
+.project-style10-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 120px 0 90px;
+    z-index: 10;
+}
+
+
+.project-menu-box--style2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 41px;
+}
+
+.project-menu-box--style2 .project-filter {
+    position: relative;
+    display: block;
+}
+
+.project-menu-box--style2 .project-filter:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    bottom: 9px;
+    right: 10px;
+    height: 1px;
+    background: #ebedef;
+}
+
+.project-menu-box--style2 .project-filter li .filter-text {
+    padding: 10px 20px 10px;
+    color: var(--thm-gray);
+    font-size: 15px;
+    font-weight: 400;
+    background: #fff;
+    box-shadow: none;
+}
+
+.project-menu-box--style2 .project-filter li .filter-text:before {
+    background: #ebedef;
+}
+
+.project-menu-box--style2 .project-filter li:hover .filter-text,
+.project-menu-box--style2 .project-filter li.active .filter-text {
+    color: var(--thm-base);
+}
+
+
+
+.single-project-style7--instyle10 {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.single-project-style7--instyle10 .img-holder {
+    background-color: var(--thm-base);
+}
+
+.single-project-style7--instyle10:hover .img-holder img {
+    opacity: 0.20;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05) rotate(1deg);
+}
+
+.single-project-style7--instyle10 .content-box {
+    max-width: 370px;
+}
+
+
+
+/*** 
+=============================================
+    Projects Page Four Css   
+=============================================
+***/
+.projects-page-four {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 90px;
+}
+
+.projects-page-four .projects-style5__single {
+    margin-bottom: 30px;
+}
+
+
+
+/*** 
+=============================================
+    Projects Page Five Css   
+=============================================
+***/
+.projects-page-five {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 90px;
+    z-index: 10;
+}
+
+
+
+/*** 
+=============================================
+    Projects Details Area Css   
+=============================================
+***/
+.project-details-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-bottom: 120px;
+    z-index: 10;
+}
+
+.project-details-content {
+    position: relative;
+    display: block;
+    background: #f7f7f8;
+    padding: 120px 100px 120px;
+    margin-top: -400px;
+}
+
+.project-details-main-img-box {
+    position: relative;
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.project-details-main-img-box img {
+    width: 100%;
+}
+
+.project-details-text-box1 {
+    position: relative;
+    display: block;
+    margin-top: 42px;
+}
+
+.project-details-text-box1 h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.project-details-text-box1 h3 span {
+    font-weight: 700;
+}
+
+.project-details-text-box1 p {
+    margin: 0;
+}
+
+
+
+.project-details-quote-box {
+    position: relative;
+    display: block;
+    padding-left: 100px;
+    margin-top: 48px;
+    margin-bottom: 38px;
+}
+
+.project-details-quote-box .icon {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: var(--thm-base);
+    font-size: 45px;
+}
+
+.project-details-quote-box .inner-text {
+    position: relative;
+    display: block;
+}
+
+.project-details-quote-box .inner-text h2 {
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+
+.project-details-text-box2 {
+    position: relative;
+    display: block;
+    padding-bottom: 9px;
+}
+
+.project-details-text-box2 p {
+    margin: 0;
+}
+
+
+
+.project-info-box {
+    position: relative;
+    display: block;
+}
+
+.project-info-box .single-box {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+}
+
+.project-info-box .single-box h3 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 0 0 12px;
+}
+
+.project-info-box .single-box ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.project-info-box .single-box ul li {
+    position: relative;
+    display: block;
+    line-height: 30px;
+}
+
+
+
+.project-details-img-box {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+}
+
+.project-details-img-box .single-box {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+}
+
+.project-details-img-box .single-box .img-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.project-details-img-box .single-box .img-holder img {
+    width: 100%;
+}

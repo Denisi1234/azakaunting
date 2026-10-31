@@ -1,0 +1,143 @@
+/*** 
+=============================================
+    Breadcrumb area style
+=============================================
+***/
+.breadcrumb-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.breadcrumb-area.gray-bg {
+    background: #f7f7f7;
+}
+
+.breadcrumb-area-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: scroll;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.breadcrumb-area .inner-content {
+    position: relative;
+    display: block;
+    padding: 275px 0 104px;
+    text-align: center;
+    z-index: 10;
+}
+
+.breadcrumb-area .inner-content.style2 {
+    padding: 244px 0 114px;
+}
+
+.breadcrumb-area .inner-content.style3 {
+    padding: 124px 0 514px;
+}
+
+
+.breadcrumb-area .sub-title {
+    position: relative;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.breadcrumb-area .sub-title h3 {
+    color: var(--thm-base);
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0.22em;
+    font-family: var(--thm-font-3);
+}
+
+.breadcrumb-area .title {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.breadcrumb-area .title h2 {
+    color: #ffffff;
+    font-size: 102px;
+    line-height: 1.0em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+.breadcrumb-area--style4 .title h2 {
+    color: var(--thm-black);
+}
+
+
+
+
+.breadcrumb-area.style5 .inner-content.style3 {
+    padding: 285px 0 514px;
+}
+
+
+
+
+
+
+
+/****
+.breadcrumb-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.breadcrumb-menu ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.breadcrumb-menu ul li {
+    position: relative;
+    float: left;
+    color: #6b767b;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-family: var(--thm-font);
+}
+
+.breadcrumb-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.breadcrumb-menu ul li i:before {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.breadcrumb-menu ul li a {
+    color: #6b767b;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.breadcrumb-menu ul li:hover a,
+.breadcrumb-menu ul li.active {
+    color: var(--thm-base);
+}
