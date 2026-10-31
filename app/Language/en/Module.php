@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Update the OSPOS Database.',
     'office'                     => 'Office',
     'office_desc'                => 'List office menu modules.',
+    'payroll'                    => 'Payroll',
+    'payroll_desc'               => 'Manage employee pay, statutory deductions, payroll runs and payslips.',
     'receivings'                 => 'Receivings',
     'receivings_desc'            => 'Process Purchase Orders.',
     'reports'                    => 'Reports',

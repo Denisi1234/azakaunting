@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Sasisha kanzidata ya OSPOS.',
     'office'                     => 'Ofisi',
     'office_desc'                => 'Orodhesha moduli za menyu ya ofisi.',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => 'Manunuzi',
     'receivings_desc'            => 'Shughulikia Maagizo ya Ununuzi.',
     'reports'                    => 'Ripoti',

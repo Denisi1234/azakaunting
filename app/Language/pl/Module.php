@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => '',
     'office'                     => '',
     'office_desc'                => '',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => '',
     'receivings_desc'            => '',
     'reports'                    => '',

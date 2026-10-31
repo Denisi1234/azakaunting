@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Ažurirajte OSPOS bazu podataka.',
     'office'                     => 'Administracija',
     'office_desc'                => 'Lista modula kancelarijskog menija.',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => 'Ulazi',
     'receivings_desc'            => 'Obrada narudžbenica.',
     'reports'                    => 'Izvještaji',

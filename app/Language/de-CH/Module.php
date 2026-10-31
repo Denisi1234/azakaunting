@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => '',
     'office'                     => '',
     'office_desc'                => '',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => 'Eingänge',
     'receivings_desc'            => 'Hinzufügen, Ändern, Löschen und Suchen',
     'reports'                    => 'Berichte',

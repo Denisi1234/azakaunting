@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'OSPOS Məlumat Bazasını yenilə.',
     'office'                     => 'Ofis',
     'office_desc'                => 'Ofis menyusu modullarının siyahısı.',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => 'Qəbul Edilənlər',
     'receivings_desc'            => 'Satınalma sifarişlərini emal et.',
     'reports'                    => 'Hesabatlar',

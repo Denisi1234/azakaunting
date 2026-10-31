@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Оновіть базу даних OSPOS.',
     'office'                     => 'Управління',
     'office_desc'                => 'Список модулів меню управління.',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => 'Надходження',
     'receivings_desc'            => 'Обробка замовлень на закупівлю.',
     'reports'                    => 'Звіти',

@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => '更新 OSPOS 數據庫。',
     'office'                     => '辦公室',
     'office_desc'                => '列出辦公菜單模塊。',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => '進貨',
     'receivings_desc'            => '採購訂單流程.',
     'reports'                    => '報表',

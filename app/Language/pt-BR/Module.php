@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Atualize o banco de dados do OSPOS.',
     'office'                     => 'Escritório',
     'office_desc'                => 'Listar módulos de menu do escritório.',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => 'Recebimento',
     'receivings_desc'            => 'Processar ordens.',
     'reports'                    => 'Relatórios',

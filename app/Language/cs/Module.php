@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Aktualizovat databázi OSPOS.',
     'office'                     => 'Správa',
     'office_desc'                => 'Seznam modulů pro správu.',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => 'Příjem zboží',
     'receivings_desc'            => '',
     'reports'                    => 'Sestavy',

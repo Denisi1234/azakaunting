@@ -10,6 +10,13 @@ $routes->get('login', 'Login::index');
 $routes->post('login', 'Login::index');
 $routes->post('migrate', 'Login::migrate');
 
+$routes->group('payroll', static function ($routes): void {
+    $routes->get('settings', 'Payroll::getSettings');
+    $routes->post('settings', 'Payroll::postSettings');
+    $routes->post('components', 'Payroll::postComponent');
+    $routes->get('remittance/(:num)', 'Payroll::getRemittance/$1');
+});
+
 $routes->add('no_access/index/(:segment)', 'No_access::index/$1');
 $routes->add('no_access/index/(:segment)/(:segment)', 'No_access::index/$1/$2');
 

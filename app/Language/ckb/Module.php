@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'داتابەیسی OSPOS نوێ بکەرەوە.',
     'office'                     => 'ئۆفیس',
     'office_desc'                => 'لیستی مۆدۆلی پێڕستی ئۆفیس نیشان بدە.',
+    'payroll'                    => '',
+    'payroll_desc'               => '',
     'receivings'                 => 'وەرگرتنەکان',
     'receivings_desc'            => 'پرۆسەی داواکاری کڕین.',
     'reports'                    => 'ڕاپۆرتەکان',
