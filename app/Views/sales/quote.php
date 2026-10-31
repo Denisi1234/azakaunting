@@ -67,6 +67,7 @@ if (isset($error_message)) {
     <?php endif; ?>
     <?= anchor('sales', '<span class="glyphicon glyphicon-shopping-cart">&nbsp;</span>' . lang('Sales.register'), ['class' => 'btn btn-info btn-sm', 'id' => 'show_sales_button']) ?>
     <?= anchor('sales/discardsuspendedsale', '<span class="glyphicon glyphicon-remove">&nbsp;</span>' . lang('Sales.discard'), ['class' => 'btn btn-danger btn-sm', 'id' => 'discard_quote_button']) ?>
+    <?= anchor('quotations/view/' . (int) $sale_id_num, '<span class="glyphicon glyphicon-list-alt">&nbsp;</span>' . lang('Quotations.manage_quote'), ['class' => 'btn btn-primary btn-sm']) ?>
 </div>
 
 <div id="page-wrap">

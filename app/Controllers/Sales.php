@@ -15,6 +15,7 @@ use App\Models\Giftcard;
 use App\Models\Inventory;
 use App\Models\Item;
 use App\Models\Item_kit;
+use App\Models\Quotation;
 use App\Models\Sale;
 use App\Models\Stock_location;
 use App\Models\Tokens\Token_invoice_count;
@@ -41,6 +42,7 @@ class Sales extends Secure_Controller
     private Item $item;
     private Item_kit $item_kit;
     private Sale $sale;
+    private Quotation $quotation;
     private Stock_location $stock_location;
     private array $config;
 
@@ -58,6 +60,7 @@ class Sales extends Secure_Controller
 
         $this->customer = model(Customer::class);
         $this->sale = model(Sale::class);
+        $this->quotation = model(Quotation::class);
         $this->item = model(Item::class);
         $this->item_kit = model(Item_kit::class);
         $this->stock_location = model(Stock_location::class);
@@ -132,7 +135,7 @@ class Sales extends Secure_Controller
     {
         $personId = $this->session->get('person_id');
 
-        if (!$this->employee->has_grant('reports_sales', $personId)) {
+        if (!$this->employee->has_grant($type === 'quote' ? 'quotations' : 'reports_sales', $personId)) {
             return $this->response->setStatusCode(403)->setJSON(['success' => false, 'message' => lang('Sales.not_authorized')]);
         }
 
@@ -758,6 +761,18 @@ class Sales extends Secure_Controller
     public function postComplete(): string    // TODO: this function is huge.  Probably should be refactored.
     {
         $saleId = $this->sale_lib->get_sale_id();
+        $currentQuote = $saleId > 0 ? $this->quotation->getInfo($saleId) : null;
+        if ($currentQuote !== null && (int) $currentQuote->sale_type === SALE_TYPE_QUOTE) {
+            if ($this->sale_lib->is_quote_mode() && in_array($currentQuote->status, ['accepted', 'converted', 'cancelled'], true)) {
+                return $this->reload(['error' => lang('Quotations.locked')]);
+            }
+            if (! $this->sale_lib->is_quote_mode() && $currentQuote->status !== 'accepted') {
+                return $this->reload(['error' => lang('Quotations.must_be_accepted')]);
+            }
+            if (! $this->sale_lib->is_quote_mode() && ! $this->quotation->cartMatches($saleId, $this->sale_lib->get_cart())) {
+                return $this->reload(['error' => lang('Quotations.accepted_quote_changed')]);
+            }
+        }
         $data = [];
         $data['dinner_table'] = $this->sale_lib->get_dinner_table();
 
@@ -796,6 +811,24 @@ class Sales extends Secure_Controller
         $data["work_order_number"] = $workOrderNumber;
         $quoteNumber = $this->sale_lib->get_quote_number();
         $data["quote_number"] = $quoteNumber;
+        $quoteReference = $this->request->getPost('quotation_reference', FILTER_SANITIZE_FULL_SPECIAL_CHARS)
+            ?? $this->session->get('quotation_reference_number');
+        $quoteValidUntil = $this->request->getPost('quotation_valid_until', FILTER_SANITIZE_FULL_SPECIAL_CHARS)
+            ?? $this->session->get('quotation_valid_until');
+        $quoteValidUntil = $quoteValidUntil ?: date('Y-m-d', strtotime('+30 days'));
+        if ($this->sale_lib->is_quote_mode()) {
+            if (! $this->validate([
+                'quotation_valid_until' => 'required|valid_date[Y-m-d]',
+                'quotation_reference' => 'permit_empty|max_length[80]',
+            ])) {
+                return $this->reload(['error' => implode(' ', $this->validator->getErrors())]);
+            }
+            if ($quoteValidUntil < date('Y-m-d')) {
+                return $this->reload(['error' => lang('Quotations.expiry_must_be_future')]);
+            }
+            $this->session->set('quotation_reference_number', $quoteReference);
+            $this->session->set('quotation_valid_until', $quoteValidUntil);
+        }
         $customerInfo = $this->_load_customer_data($customerId, $data);
 
         if ($customerInfo != null) {
@@ -820,6 +853,22 @@ class Sales extends Secure_Controller
         $data['non_cash_total'] = $totals['total'];
         $data['cash_amount_due'] = $totals['cash_amount_due'];
         $data['non_cash_amount_due'] = $totals['amount_due'];
+
+        if ($currentQuote !== null && (int) $currentQuote->sale_type === SALE_TYPE_QUOTE && ! $this->sale_lib->is_quote_mode()) {
+            $acceptedTotal = number_format($this->quotation->getTotal($saleId), totals_decimals(), '.', '');
+            $conversionTotal = number_format((float) $totals['total'], totals_decimals(), '.', '');
+            if ($acceptedTotal !== $conversionTotal) {
+                return $this->reload(['error' => lang('Quotations.accepted_quote_changed')]);
+            }
+        }
+
+        if ($currentQuote !== null && (int) $currentQuote->sale_type === SALE_TYPE_QUOTE && ! $this->sale_lib->is_quote_mode()) {
+            $acceptedTotal = number_format($this->quotation->getTotal($saleId), totals_decimals(), '.', '');
+            $conversionTotal = number_format((float) $totals['total'], totals_decimals(), '.', '');
+            if ($acceptedTotal !== $conversionTotal) {
+                return $this->reload(['error' => lang('Quotations.accepted_quote_changed')]);
+            }
+        }
 
         // Prevent negative total sales (fraud/theft vector) - returns can have negative totals for legitimate refunds
         if ($this->sale_lib->get_mode() != 'return' && bccomp($totals['total'], '0') < 0) {
@@ -901,6 +950,9 @@ class Sales extends Secure_Controller
                     $data['error_message'] = lang('Sales.transaction_failed');
                     return $this->reload($data);
                 } else {
+                    if ($currentQuote !== null && (int) $currentQuote->sale_type === SALE_TYPE_QUOTE) {
+                        $this->quotation->markConverted($saleId, (int) $data['sale_id_num']);
+                    }
                     $data['barcode'] = $this->barcode_lib->generate_receipt_barcode($data['sale_id']);
                     $this->sale_lib->clear_all();
                     return view('sales/' . $invoiceView, $data);
@@ -969,6 +1021,10 @@ class Sales extends Secure_Controller
                 $data['sale_status'] = SUSPENDED;
                 $saleType = SALE_TYPE_QUOTE;
 
+                if ($currentQuote !== null && ! $this->quotation->prepareRevision($saleId, $employeeId, 'Register edit')) {
+                    return $this->reload(['error' => lang('Quotations.locked')]);
+                }
+
                 $data['sale_id_num'] = $this->sale->save_value($saleId, $data['sale_status'], $data['cart'], $customerId, $employeeId, $data['comments'], $invoiceNumber, $workOrderNumber, $quoteNumber, $saleType, $data['payments'], $data['dinner_table'], $taxDetails);
 
                 if ($data['sale_id_num'] === INSUFFICIENT_GIFTCARD_BALANCE) {
@@ -981,6 +1037,15 @@ class Sales extends Secure_Controller
                     $data['error_message'] = lang('Sales.transaction_failed');
                     return $this->reload($data);
                 }
+
+                $this->quotation->registerAfterSaleSave(
+                    (int) $data['sale_id_num'],
+                    trim((string) $quoteReference) ?: null,
+                    $quoteValidUntil,
+                    $employeeId
+                );
+                $this->session->remove('quotation_reference_number');
+                $this->session->remove('quotation_valid_until');
 
                 $this->sale_lib->set_suspended_id($data['sale_id_num']);
 
@@ -1015,6 +1080,9 @@ class Sales extends Secure_Controller
                 $data['error_message'] = lang('Sales.transaction_failed');
                 return $this->reload($data);
             } else {
+                if ($currentQuote !== null && (int) $currentQuote->sale_type === SALE_TYPE_QUOTE) {
+                    $this->quotation->markConverted($saleId, (int) $data['sale_id_num']);
+                }
                 $data['barcode'] = $this->barcode_lib->generate_receipt_barcode($data['sale_id']);
 
                 // Validate receipt template to prevent path traversal
@@ -1063,6 +1131,12 @@ class Sales extends Secure_Controller
                 new Token_customer((array)$saleData)
             ];
             $text = $this->token_lib->render($text, $tokens);
+            if ($type === 'quote') {
+                $quote = $this->quotation->getInfo($saleId);
+                if ($quote !== null) {
+                    $text .= "\n\n" . lang('Quotations.review_link') . ': ' . site_url('quotation/portal/' . $quote->public_token);
+                }
+            }
             $saleData['mimetype'] = $this->email_lib->getLogoMimeType();
 
             // Build img_tag for email views that need it (receipt_email.php)
@@ -1077,6 +1151,9 @@ class Sales extends Secure_Controller
             $filename = sys_get_temp_dir() . '/' . lang('Sales.' . $type) . '-' . str_replace('/', '-', $number) . '.pdf';
             if (file_put_contents($filename, create_pdf($html)) !== false) {
                 $result = $this->email_lib->sendEmail($to, $subject, $text, $filename);
+            }
+            if ($result && $type === 'quote') {
+                $this->quotation->markSent($saleId);
             }
 
             $message = lang($result ? "Sales." . $type . "_sent" : "Sales." . $type . "_unsent") . ' ' . $to;
@@ -1393,6 +1470,8 @@ class Sales extends Secure_Controller
         $data['pos_mode'] = $data['mode'] == 'sale' || $data['mode'] == 'return';
 
         $data['quote_number'] = $this->sale_lib->get_quote_number();
+        $data['quotation_reference'] = $this->session->get('quotation_reference_number') ?? '';
+        $data['quotation_valid_until'] = $this->session->get('quotation_valid_until') ?? date('Y-m-d', strtotime('+30 days'));
         $data['work_order_number'] = $this->sale_lib->get_work_order_number();
         $data['keyboardShortcuts'] = $this->sale_lib->getKeyShortcuts();
 

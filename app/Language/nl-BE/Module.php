@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Update de OSPOS database.',
     'office'                     => 'Kantoor',
     'office_desc'                => 'Toon kantoor menu modules.',
+    'quotations'                 => '',
+    'quotations_desc'            => '',
     'receivings'                 => 'Orders',
     'receivings_desc'            => 'Verwerk binnenkomende orders.',
     'reports'                    => 'Rapporten',

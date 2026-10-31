@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Обновите базу данных OSPOS.',
     'office'                     => 'Офис',
     'office_desc'                => 'Список модулей офисного меню.',
+    'quotations'                 => '',
+    'quotations_desc'            => '',
     'receivings'                 => 'Закупки',
     'receivings_desc'            => 'Обработка заказов на покупку.',
     'reports'                    => 'Отчеты',

@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Update the OSPOS Database.',
     'office'                     => 'Office',
     'office_desc'                => 'List office menu modules.',
+    'quotations'                 => 'Quotations',
+    'quotations_desc'            => 'Manage customer quotations and approvals.',
     'receivings'                 => 'Receivings',
     'receivings_desc'            => 'Process Purchase Orders.',
     'reports'                    => 'Reports',

@@ -10,6 +10,25 @@ $routes->get('login', 'Login::index');
 $routes->post('login', 'Login::index');
 $routes->post('migrate', 'Login::migrate');
 
+$routes->group('quotations', static function ($routes): void {
+    $routes->get('/', 'Quotations::getIndex');
+    $routes->get('view/(:num)', 'Quotations::getView/$1');
+    $routes->post('update/(:num)', 'Quotations::postUpdate/$1');
+    $routes->post('options/(:num)', 'Quotations::postAddOption/$1');
+    $routes->post('options/(:num)/delete/(:num)', 'Quotations::postDeleteOption/$1/$2');
+    $routes->post('attachments/(:num)', 'Quotations::postUpload/$1');
+    $routes->get('attachments/(:num)', 'Quotations::getAttachment/$1');
+    $routes->post('duplicate/(:num)', 'Quotations::postDuplicate/$1');
+    $routes->post('convert/(:num)', 'Quotations::postConvert/$1');
+    $routes->post('cancel/(:num)', 'Quotations::postCancel/$1');
+    $routes->get('pdf/(:num)', 'Quotations::getDownloadPdf/$1');
+});
+
+$routes->get('quotation/portal/(:segment)', 'Quotation_portal::getView/$1');
+$routes->post('quotation/respond/(:segment)', 'Quotation_portal::postRespond/$1');
+$routes->get('quotation/pdf/(:segment)', 'Quotation_portal::getPdf/$1');
+$routes->get('quotation/attachment/(:segment)/(:num)', 'Quotation_portal::getAttachment/$1/$2');
+
 $routes->add('no_access/index/(:segment)', 'No_access::index/$1');
 $routes->add('no_access/index/(:segment)/(:segment)', 'No_access::index/$1/$2');
 

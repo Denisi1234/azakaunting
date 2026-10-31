@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'تحديث قاعدة البيانات.',
     'office'                     => 'المكتب',
     'office_desc'                => 'اظهار الائحة المكتبية.',
+    'quotations'                 => '',
+    'quotations_desc'            => '',
     'receivings'                 => 'استلام الأصناف',
     'receivings_desc'            => 'معالجة أوامر الشراء و استلام الأصناف.',
     'reports'                    => 'التقارير',

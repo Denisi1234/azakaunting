@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => '',
     'office'                     => '',
     'office_desc'                => '',
+    'quotations'                 => '',
+    'quotations_desc'            => '',
     'receivings'                 => 'Áruátvétel',
     'receivings_desc'            => 'Beszállítóktól érkező áruk átvétele',
     'reports'                    => 'Riportok',

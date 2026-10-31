@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'ปรับปรุงฐานข้อมูล OSPOS',
     'office'                     => 'สำนักงาน',
     'office_desc'                => 'แสดงรายการเมนูโมดูลสำนักงาน',
+    'quotations'                 => '',
+    'quotations_desc'            => '',
     'receivings'                 => 'สินค้าเข้า',
     'receivings_desc'            => 'สินค้าเข้า',
     'reports'                    => 'รายงาน',

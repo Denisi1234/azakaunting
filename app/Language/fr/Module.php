@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'Mettre à jour la base de données OSPOS.',
     'office'                     => 'Bureau',
     'office_desc'                => 'Liste des modules de menu du bureau.',
+    'quotations'                 => '',
+    'quotations_desc'            => '',
     'receivings'                 => 'Entrées Stock',
     'receivings_desc'            => 'Gérer les ordres d\'achat.',
     'reports'                    => 'Rapports',

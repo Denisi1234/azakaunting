@@ -32,6 +32,8 @@ return [
     'migrate_desc'               => 'OSPOS database bijwerken.',
     'office'                     => 'Kantoor',
     'office_desc'                => 'Kantoor menu modules weergeven.',
+    'quotations'                 => '',
+    'quotations_desc'            => '',
     'receivings'                 => 'Leveringen',
     'receivings_desc'            => 'Inkooporders verwerken.',
     'reports'                    => 'Rapporten',

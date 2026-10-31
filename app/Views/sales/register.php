@@ -532,6 +532,18 @@ helper('url');
             </div>
 
             <?= form_open("$controller_name/cancel", ['id' => 'buttons_form']) ?>
+            <?php if (($mode ?? '') === 'sale_quote'): ?>
+                <div class="row">
+                    <div class="col-xs-6 form-group">
+                        <?= form_label(lang('Quotations.reference'), 'quotation_reference') ?>
+                        <?= form_input(['name' => 'quotation_reference', 'id' => 'quotation_reference', 'class' => 'form-control input-sm', 'value' => $quotation_reference ?? '']) ?>
+                    </div>
+                    <div class="col-xs-6 form-group">
+                        <?= form_label(lang('Quotations.valid_until'), 'quotation_valid_until') ?>
+                        <?= form_input(['type' => 'date', 'name' => 'quotation_valid_until', 'id' => 'quotation_valid_until', 'class' => 'form-control input-sm', 'value' => $quotation_valid_until ?? '']) ?>
+                    </div>
+                </div>
+            <?php endif; ?>
             <div class="form-group" id="buttons_sale">
                 <div class="btn btn-sm btn-default pull-left" id="suspend_sale_button"><span class="glyphicon glyphicon-align-justify">&nbsp;</span><?= lang(ucfirst($controller_name) . '.suspend_sale') ?></div>
                 <?php if (!$pos_mode && isset($customer)) { // Only show this part if the payment covers the total ?>
